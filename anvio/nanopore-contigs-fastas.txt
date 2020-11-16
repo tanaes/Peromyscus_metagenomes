@@ -1,0 +1,8 @@
+name	path
+Pcalifornicus-1	/workdir/jgs/data/nanopore/Peromyscus/assembled/reticulatus_2/working/flye28.ctg.cns.racon-ont-4.medaka-ont-1.pilon-ill-2.fa
+Peremicus-3	/workdir/jgs/data/nanopore/Peromyscus/assembled/reticulatus_2/working/flye28.ctg.cns.racon-ont-4.medaka-ont-1.pilon-ill-2.fa
+Pleucopus-3	/workdir/jgs/data/nanopore/Peromyscus/assembled/reticulatus_2/working/flye28.ctg.cns.racon-ont-4.medaka-ont-1.pilon-ill-2.fa
+Pmaniculatus-1	/workdir/jgs/data/nanopore/Peromyscus/assembled/reticulatus_2/working/flye28.ctg.cns.racon-ont-4.medaka-ont-1.pilon-ill-2.fa
+Ppolionotus-3	/workdir/jgs/data/nanopore/Peromyscus/assembled/reticulatus_2/working/flye28.ctg.cns.racon-ont-4.medaka-ont-1.pilon-ill-2.fa
+Ppolionotus-5	/workdir/jgs/data/nanopore/Peromyscus/assembled/reticulatus_2/working/flye28.ctg.cns.racon-ont-4.medaka-ont-1.pilon-ill-2.fa
+Psonoriensis-1	/workdir/jgs/data/nanopore/Peromyscus/assembled/reticulatus_2/working/flye28.ctg.cns.racon-ont-4.medaka-ont-1.pilon-ill-2.fa
