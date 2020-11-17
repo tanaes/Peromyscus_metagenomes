@@ -6,4 +6,3 @@ Pmaniculatus_1F	/workdir/jgs/data/nanopore/Peromyscus/assembled/reticulatus_2/wo
 Ppolionotus_3F	/workdir/jgs/data/nanopore/Peromyscus/assembled/reticulatus_2/working/Ppolionotus-3.flye28.ctg.cns.racon-ont-4.medaka-ont-1.pilon-ill-2.fa
 Ppolionotus_5F	/workdir/jgs/data/nanopore/Peromyscus/assembled/reticulatus_2/working/Ppolionotus-5.flye28.ctg.cns.racon-ont-4.medaka-ont-1.pilon-ill-2.fa
 Psonoriensis_1F	/workdir/jgs/data/nanopore/Peromyscus/assembled/reticulatus_2/working/Psonoriensis-1.flye28.ctg.cns.racon-ont-4.medaka-ont-1.pilon-ill-2.fa
-
