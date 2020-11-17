@@ -1,0 +1,1765 @@
+digraph snakemake_dag {
+    graph[bgcolor=white, margin=0];
+    node[shape=box, style=rounded, fontname=sans,                 fontsize=10, penwidth=2];
+    edge[penwidth=2, color=grey];
+	0[label = "metagenomics_workflow_target_rule", color = "0.16 0.6 0.85", style="rounded"];
+	1[label = "anvi_merge", color = "0.37 0.6 0.85", style="rounded"];
+	2[label = "anvi_merge", color = "0.37 0.6 0.85", style="rounded"];
+	3[label = "anvi_merge", color = "0.37 0.6 0.85", style="rounded"];
+	4[label = "anvi_merge", color = "0.37 0.6 0.85", style="rounded"];
+	5[label = "anvi_merge", color = "0.37 0.6 0.85", style="rounded"];
+	6[label = "anvi_merge", color = "0.37 0.6 0.85", style="rounded"];
+	7[label = "anvi_merge", color = "0.37 0.6 0.85", style="rounded"];
+	8[label = "annotate_contigs_database", color = "0.30 0.6 0.85", style="rounded"];
+	9[label = "annotate_contigs_database", color = "0.30 0.6 0.85", style="rounded"];
+	10[label = "annotate_contigs_database", color = "0.30 0.6 0.85", style="rounded"];
+	11[label = "annotate_contigs_database", color = "0.30 0.6 0.85", style="rounded"];
+	12[label = "annotate_contigs_database", color = "0.30 0.6 0.85", style="rounded"];
+	13[label = "annotate_contigs_database", color = "0.30 0.6 0.85", style="rounded"];
+	14[label = "annotate_contigs_database", color = "0.30 0.6 0.85", style="rounded"];
+	15[label = "gen_qc_report", color = "0.24 0.6 0.85", style="rounded"];
+	16[label = "anvi_cluster_contigs\ndriver: concoct", color = "0.62 0.6 0.85", style="rounded"];
+	17[label = "anvi_cluster_contigs\ndriver: concoct", color = "0.62 0.6 0.85", style="rounded"];
+	18[label = "anvi_cluster_contigs\ndriver: concoct", color = "0.62 0.6 0.85", style="rounded"];
+	19[label = "anvi_cluster_contigs\ndriver: concoct", color = "0.62 0.6 0.85", style="rounded"];
+	20[label = "anvi_cluster_contigs\ndriver: concoct", color = "0.62 0.6 0.85", style="rounded"];
+	21[label = "anvi_cluster_contigs\ndriver: concoct", color = "0.62 0.6 0.85", style="rounded"];
+	22[label = "anvi_cluster_contigs\ndriver: concoct", color = "0.62 0.6 0.85", style="rounded"];
+	23[label = "anvi_cluster_contigs\ndriver: maxbin2", color = "0.62 0.6 0.85", style="rounded"];
+	24[label = "anvi_cluster_contigs\ndriver: maxbin2", color = "0.62 0.6 0.85", style="rounded"];
+	25[label = "anvi_cluster_contigs\ndriver: maxbin2", color = "0.62 0.6 0.85", style="rounded"];
+	26[label = "anvi_cluster_contigs\ndriver: maxbin2", color = "0.62 0.6 0.85", style="rounded"];
+	27[label = "anvi_cluster_contigs\ndriver: maxbin2", color = "0.62 0.6 0.85", style="rounded"];
+	28[label = "anvi_cluster_contigs\ndriver: maxbin2", color = "0.62 0.6 0.85", style="rounded"];
+	29[label = "anvi_cluster_contigs\ndriver: maxbin2", color = "0.62 0.6 0.85", style="rounded"];
+	30[label = "anvi_gen_contigs_database", color = "0.28 0.6 0.85", style="rounded"];
+	31[label = "anvi_profile", color = "0.09 0.6 0.85", style="rounded"];
+	32[label = "anvi_profile", color = "0.09 0.6 0.85", style="rounded"];
+	33[label = "anvi_profile", color = "0.09 0.6 0.85", style="rounded"];
+	34[label = "anvi_profile", color = "0.09 0.6 0.85", style="rounded"];
+	35[label = "anvi_profile", color = "0.09 0.6 0.85", style="rounded"];
+	36[label = "anvi_profile", color = "0.09 0.6 0.85", style="rounded"];
+	37[label = "anvi_profile", color = "0.09 0.6 0.85", style="rounded"];
+	38[label = "anvi_profile", color = "0.09 0.6 0.85", style="rounded"];
+	39[label = "anvi_profile", color = "0.09 0.6 0.85", style="rounded"];
+	40[label = "anvi_profile", color = "0.09 0.6 0.85", style="rounded"];
+	41[label = "import_percent_of_reads_mapped", color = "0.50 0.6 0.85", style="rounded"];
+	42[label = "import_percent_of_reads_mapped", color = "0.50 0.6 0.85", style="rounded"];
+	43[label = "import_percent_of_reads_mapped", color = "0.50 0.6 0.85", style="rounded"];
+	44[label = "import_percent_of_reads_mapped", color = "0.50 0.6 0.85", style="rounded"];
+	45[label = "import_percent_of_reads_mapped", color = "0.50 0.6 0.85", style="rounded"];
+	46[label = "import_percent_of_reads_mapped", color = "0.50 0.6 0.85", style="rounded"];
+	47[label = "import_percent_of_reads_mapped", color = "0.50 0.6 0.85", style="rounded"];
+	48[label = "import_percent_of_reads_mapped", color = "0.50 0.6 0.85", style="rounded"];
+	49[label = "import_percent_of_reads_mapped", color = "0.50 0.6 0.85", style="rounded"];
+	50[label = "import_percent_of_reads_mapped", color = "0.50 0.6 0.85", style="rounded"];
+	51[label = "anvi_gen_contigs_database", color = "0.28 0.6 0.85", style="rounded"];
+	52[label = "anvi_profile", color = "0.09 0.6 0.85", style="rounded"];
+	53[label = "anvi_profile", color = "0.09 0.6 0.85", style="rounded"];
+	54[label = "anvi_profile", color = "0.09 0.6 0.85", style="rounded"];
+	55[label = "anvi_profile", color = "0.09 0.6 0.85", style="rounded"];
+	56[label = "anvi_profile", color = "0.09 0.6 0.85", style="rounded"];
+	57[label = "anvi_profile", color = "0.09 0.6 0.85", style="rounded"];
+	58[label = "anvi_profile", color = "0.09 0.6 0.85", style="rounded"];
+	59[label = "anvi_profile", color = "0.09 0.6 0.85", style="rounded"];
+	60[label = "anvi_profile", color = "0.09 0.6 0.85", style="rounded"];
+	61[label = "anvi_profile", color = "0.09 0.6 0.85", style="rounded"];
+	62[label = "import_percent_of_reads_mapped", color = "0.50 0.6 0.85", style="rounded"];
+	63[label = "import_percent_of_reads_mapped", color = "0.50 0.6 0.85", style="rounded"];
+	64[label = "import_percent_of_reads_mapped", color = "0.50 0.6 0.85", style="rounded"];
+	65[label = "import_percent_of_reads_mapped", color = "0.50 0.6 0.85", style="rounded"];
+	66[label = "import_percent_of_reads_mapped", color = "0.50 0.6 0.85", style="rounded"];
+	67[label = "import_percent_of_reads_mapped", color = "0.50 0.6 0.85", style="rounded"];
+	68[label = "import_percent_of_reads_mapped", color = "0.50 0.6 0.85", style="rounded"];
+	69[label = "import_percent_of_reads_mapped", color = "0.50 0.6 0.85", style="rounded"];
+	70[label = "import_percent_of_reads_mapped", color = "0.50 0.6 0.85", style="rounded"];
+	71[label = "import_percent_of_reads_mapped", color = "0.50 0.6 0.85", style="rounded"];
+	72[label = "anvi_gen_contigs_database", color = "0.28 0.6 0.85", style="rounded"];
+	73[label = "anvi_profile", color = "0.09 0.6 0.85", style="rounded"];
+	74[label = "anvi_profile", color = "0.09 0.6 0.85", style="rounded"];
+	75[label = "anvi_profile", color = "0.09 0.6 0.85", style="rounded"];
+	76[label = "anvi_profile", color = "0.09 0.6 0.85", style="rounded"];
+	77[label = "anvi_profile", color = "0.09 0.6 0.85", style="rounded"];
+	78[label = "anvi_profile", color = "0.09 0.6 0.85", style="rounded"];
+	79[label = "anvi_profile", color = "0.09 0.6 0.85", style="rounded"];
+	80[label = "anvi_profile", color = "0.09 0.6 0.85", style="rounded"];
+	81[label = "anvi_profile", color = "0.09 0.6 0.85", style="rounded"];
+	82[label = "anvi_profile", color = "0.09 0.6 0.85", style="rounded"];
+	83[label = "import_percent_of_reads_mapped", color = "0.50 0.6 0.85", style="rounded"];
+	84[label = "import_percent_of_reads_mapped", color = "0.50 0.6 0.85", style="rounded"];
+	85[label = "import_percent_of_reads_mapped", color = "0.50 0.6 0.85", style="rounded"];
+	86[label = "import_percent_of_reads_mapped", color = "0.50 0.6 0.85", style="rounded"];
+	87[label = "import_percent_of_reads_mapped", color = "0.50 0.6 0.85", style="rounded"];
+	88[label = "import_percent_of_reads_mapped", color = "0.50 0.6 0.85", style="rounded"];
+	89[label = "import_percent_of_reads_mapped", color = "0.50 0.6 0.85", style="rounded"];
+	90[label = "import_percent_of_reads_mapped", color = "0.50 0.6 0.85", style="rounded"];
+	91[label = "import_percent_of_reads_mapped", color = "0.50 0.6 0.85", style="rounded"];
+	92[label = "import_percent_of_reads_mapped", color = "0.50 0.6 0.85", style="rounded"];
+	93[label = "anvi_gen_contigs_database", color = "0.28 0.6 0.85", style="rounded"];
+	94[label = "anvi_profile", color = "0.09 0.6 0.85", style="rounded"];
+	95[label = "anvi_profile", color = "0.09 0.6 0.85", style="rounded"];
+	96[label = "anvi_profile", color = "0.09 0.6 0.85", style="rounded"];
+	97[label = "anvi_profile", color = "0.09 0.6 0.85", style="rounded"];
+	98[label = "anvi_profile", color = "0.09 0.6 0.85", style="rounded"];
+	99[label = "anvi_profile", color = "0.09 0.6 0.85", style="rounded"];
+	100[label = "anvi_profile", color = "0.09 0.6 0.85", style="rounded"];
+	101[label = "anvi_profile", color = "0.09 0.6 0.85", style="rounded"];
+	102[label = "anvi_profile", color = "0.09 0.6 0.85", style="rounded"];
+	103[label = "anvi_profile", color = "0.09 0.6 0.85", style="rounded"];
+	104[label = "import_percent_of_reads_mapped", color = "0.50 0.6 0.85", style="rounded"];
+	105[label = "import_percent_of_reads_mapped", color = "0.50 0.6 0.85", style="rounded"];
+	106[label = "import_percent_of_reads_mapped", color = "0.50 0.6 0.85", style="rounded"];
+	107[label = "import_percent_of_reads_mapped", color = "0.50 0.6 0.85", style="rounded"];
+	108[label = "import_percent_of_reads_mapped", color = "0.50 0.6 0.85", style="rounded"];
+	109[label = "import_percent_of_reads_mapped", color = "0.50 0.6 0.85", style="rounded"];
+	110[label = "import_percent_of_reads_mapped", color = "0.50 0.6 0.85", style="rounded"];
+	111[label = "import_percent_of_reads_mapped", color = "0.50 0.6 0.85", style="rounded"];
+	112[label = "import_percent_of_reads_mapped", color = "0.50 0.6 0.85", style="rounded"];
+	113[label = "import_percent_of_reads_mapped", color = "0.50 0.6 0.85", style="rounded"];
+	114[label = "anvi_gen_contigs_database", color = "0.28 0.6 0.85", style="rounded"];
+	115[label = "anvi_profile", color = "0.09 0.6 0.85", style="rounded"];
+	116[label = "anvi_profile", color = "0.09 0.6 0.85", style="rounded"];
+	117[label = "anvi_profile", color = "0.09 0.6 0.85", style="rounded"];
+	118[label = "anvi_profile", color = "0.09 0.6 0.85", style="rounded"];
+	119[label = "anvi_profile", color = "0.09 0.6 0.85", style="rounded"];
+	120[label = "anvi_profile", color = "0.09 0.6 0.85", style="rounded"];
+	121[label = "anvi_profile", color = "0.09 0.6 0.85", style="rounded"];
+	122[label = "anvi_profile", color = "0.09 0.6 0.85", style="rounded"];
+	123[label = "anvi_profile", color = "0.09 0.6 0.85", style="rounded"];
+	124[label = "anvi_profile", color = "0.09 0.6 0.85", style="rounded"];
+	125[label = "import_percent_of_reads_mapped", color = "0.50 0.6 0.85", style="rounded"];
+	126[label = "import_percent_of_reads_mapped", color = "0.50 0.6 0.85", style="rounded"];
+	127[label = "import_percent_of_reads_mapped", color = "0.50 0.6 0.85", style="rounded"];
+	128[label = "import_percent_of_reads_mapped", color = "0.50 0.6 0.85", style="rounded"];
+	129[label = "import_percent_of_reads_mapped", color = "0.50 0.6 0.85", style="rounded"];
+	130[label = "import_percent_of_reads_mapped", color = "0.50 0.6 0.85", style="rounded"];
+	131[label = "import_percent_of_reads_mapped", color = "0.50 0.6 0.85", style="rounded"];
+	132[label = "import_percent_of_reads_mapped", color = "0.50 0.6 0.85", style="rounded"];
+	133[label = "import_percent_of_reads_mapped", color = "0.50 0.6 0.85", style="rounded"];
+	134[label = "import_percent_of_reads_mapped", color = "0.50 0.6 0.85", style="rounded"];
+	135[label = "anvi_gen_contigs_database", color = "0.28 0.6 0.85", style="rounded"];
+	136[label = "anvi_profile", color = "0.09 0.6 0.85", style="rounded"];
+	137[label = "anvi_profile", color = "0.09 0.6 0.85", style="rounded"];
+	138[label = "anvi_profile", color = "0.09 0.6 0.85", style="rounded"];
+	139[label = "anvi_profile", color = "0.09 0.6 0.85", style="rounded"];
+	140[label = "anvi_profile", color = "0.09 0.6 0.85", style="rounded"];
+	141[label = "anvi_profile", color = "0.09 0.6 0.85", style="rounded"];
+	142[label = "anvi_profile", color = "0.09 0.6 0.85", style="rounded"];
+	143[label = "anvi_profile", color = "0.09 0.6 0.85", style="rounded"];
+	144[label = "anvi_profile", color = "0.09 0.6 0.85", style="rounded"];
+	145[label = "anvi_profile", color = "0.09 0.6 0.85", style="rounded"];
+	146[label = "import_percent_of_reads_mapped", color = "0.50 0.6 0.85", style="rounded"];
+	147[label = "import_percent_of_reads_mapped", color = "0.50 0.6 0.85", style="rounded"];
+	148[label = "import_percent_of_reads_mapped", color = "0.50 0.6 0.85", style="rounded"];
+	149[label = "import_percent_of_reads_mapped", color = "0.50 0.6 0.85", style="rounded"];
+	150[label = "import_percent_of_reads_mapped", color = "0.50 0.6 0.85", style="rounded"];
+	151[label = "import_percent_of_reads_mapped", color = "0.50 0.6 0.85", style="rounded"];
+	152[label = "import_percent_of_reads_mapped", color = "0.50 0.6 0.85", style="rounded"];
+	153[label = "import_percent_of_reads_mapped", color = "0.50 0.6 0.85", style="rounded"];
+	154[label = "import_percent_of_reads_mapped", color = "0.50 0.6 0.85", style="rounded"];
+	155[label = "import_percent_of_reads_mapped", color = "0.50 0.6 0.85", style="rounded"];
+	156[label = "anvi_gen_contigs_database", color = "0.28 0.6 0.85", style="rounded"];
+	157[label = "anvi_profile", color = "0.09 0.6 0.85", style="rounded"];
+	158[label = "anvi_profile", color = "0.09 0.6 0.85", style="rounded"];
+	159[label = "anvi_profile", color = "0.09 0.6 0.85", style="rounded"];
+	160[label = "anvi_profile", color = "0.09 0.6 0.85", style="rounded"];
+	161[label = "anvi_profile", color = "0.09 0.6 0.85", style="rounded"];
+	162[label = "anvi_profile", color = "0.09 0.6 0.85", style="rounded"];
+	163[label = "anvi_profile", color = "0.09 0.6 0.85", style="rounded"];
+	164[label = "anvi_profile", color = "0.09 0.6 0.85", style="rounded"];
+	165[label = "anvi_profile", color = "0.09 0.6 0.85", style="rounded"];
+	166[label = "import_percent_of_reads_mapped", color = "0.50 0.6 0.85", style="rounded"];
+	167[label = "import_percent_of_reads_mapped", color = "0.50 0.6 0.85", style="rounded"];
+	168[label = "import_percent_of_reads_mapped", color = "0.50 0.6 0.85", style="rounded"];
+	169[label = "import_percent_of_reads_mapped", color = "0.50 0.6 0.85", style="rounded"];
+	170[label = "import_percent_of_reads_mapped", color = "0.50 0.6 0.85", style="rounded"];
+	171[label = "import_percent_of_reads_mapped", color = "0.50 0.6 0.85", style="rounded"];
+	172[label = "import_percent_of_reads_mapped", color = "0.50 0.6 0.85", style="rounded"];
+	173[label = "import_percent_of_reads_mapped", color = "0.50 0.6 0.85", style="rounded"];
+	174[label = "import_percent_of_reads_mapped", color = "0.50 0.6 0.85", style="rounded"];
+	175[label = "anvi_run_hmms", color = "0.45 0.6 0.85", style="rounded"];
+	176[label = "anvi_run_ncbi_cogs", color = "0.61 0.6 0.85", style="rounded"];
+	177[label = "anvi_run_scg_taxonomy", color = "0.20 0.6 0.85", style="rounded"];
+	178[label = "anvi_run_trna_scan", color = "0.03 0.6 0.85", style="rounded"];
+	179[label = "anvi_run_hmms", color = "0.45 0.6 0.85", style="rounded"];
+	180[label = "anvi_run_ncbi_cogs", color = "0.61 0.6 0.85", style="rounded"];
+	181[label = "anvi_run_scg_taxonomy", color = "0.20 0.6 0.85", style="rounded"];
+	182[label = "anvi_run_trna_scan", color = "0.03 0.6 0.85", style="rounded"];
+	183[label = "anvi_run_hmms", color = "0.45 0.6 0.85", style="rounded"];
+	184[label = "anvi_run_ncbi_cogs", color = "0.61 0.6 0.85", style="rounded"];
+	185[label = "anvi_run_scg_taxonomy", color = "0.20 0.6 0.85", style="rounded"];
+	186[label = "anvi_run_trna_scan", color = "0.03 0.6 0.85", style="rounded"];
+	187[label = "anvi_run_hmms", color = "0.45 0.6 0.85", style="rounded"];
+	188[label = "anvi_run_ncbi_cogs", color = "0.61 0.6 0.85", style="rounded"];
+	189[label = "anvi_run_scg_taxonomy", color = "0.20 0.6 0.85", style="rounded"];
+	190[label = "anvi_run_trna_scan", color = "0.03 0.6 0.85", style="rounded"];
+	191[label = "anvi_run_hmms", color = "0.45 0.6 0.85", style="rounded"];
+	192[label = "anvi_run_ncbi_cogs", color = "0.61 0.6 0.85", style="rounded"];
+	193[label = "anvi_run_scg_taxonomy", color = "0.20 0.6 0.85", style="rounded"];
+	194[label = "anvi_run_trna_scan", color = "0.03 0.6 0.85", style="rounded"];
+	195[label = "anvi_run_hmms", color = "0.45 0.6 0.85", style="rounded"];
+	196[label = "anvi_run_ncbi_cogs", color = "0.61 0.6 0.85", style="rounded"];
+	197[label = "anvi_run_scg_taxonomy", color = "0.20 0.6 0.85", style="rounded"];
+	198[label = "anvi_run_trna_scan", color = "0.03 0.6 0.85", style="rounded"];
+	199[label = "anvi_run_hmms", color = "0.45 0.6 0.85", style="rounded"];
+	200[label = "anvi_run_ncbi_cogs", color = "0.61 0.6 0.85", style="rounded"];
+	201[label = "anvi_run_scg_taxonomy", color = "0.20 0.6 0.85", style="rounded"];
+	202[label = "anvi_run_trna_scan", color = "0.03 0.6 0.85", style="rounded"];
+	203[label = "iu_filter_quality_minoche\nsample: Pleucopus_1F", color = "0.10 0.6 0.85", style="rounded"];
+	204[label = "iu_filter_quality_minoche\nsample: Pleucopus_2F", color = "0.10 0.6 0.85", style="rounded"];
+	205[label = "iu_filter_quality_minoche\nsample: Pleucopus_3F", color = "0.10 0.6 0.85", style="rounded"];
+	206[label = "iu_filter_quality_minoche\nsample: Pleucopus_4F", color = "0.10 0.6 0.85", style="rounded"];
+	207[label = "iu_filter_quality_minoche\nsample: Pleucopus_5F", color = "0.10 0.6 0.85", style="rounded"];
+	208[label = "iu_filter_quality_minoche\nsample: Pleucopus_1M", color = "0.10 0.6 0.85", style="rounded"];
+	209[label = "iu_filter_quality_minoche\nsample: Pleucopus_2M", color = "0.10 0.6 0.85", style="rounded"];
+	210[label = "iu_filter_quality_minoche\nsample: Pleucopus_3M", color = "0.10 0.6 0.85", style="rounded"];
+	211[label = "iu_filter_quality_minoche\nsample: Pleucopus_4M", color = "0.10 0.6 0.85", style="rounded"];
+	212[label = "iu_filter_quality_minoche\nsample: Pleucopus_5M", color = "0.10 0.6 0.85", style="rounded"];
+	213[label = "iu_filter_quality_minoche\nsample: Peremicus_1F", color = "0.10 0.6 0.85", style="rounded"];
+	214[label = "iu_filter_quality_minoche\nsample: Peremicus_2F", color = "0.10 0.6 0.85", style="rounded"];
+	215[label = "iu_filter_quality_minoche\nsample: Peremicus_3F", color = "0.10 0.6 0.85", style="rounded"];
+	216[label = "iu_filter_quality_minoche\nsample: Peremicus_4F", color = "0.10 0.6 0.85", style="rounded"];
+	217[label = "iu_filter_quality_minoche\nsample: Peremicus_5F", color = "0.10 0.6 0.85", style="rounded"];
+	218[label = "iu_filter_quality_minoche\nsample: Peremicus_1M", color = "0.10 0.6 0.85", style="rounded"];
+	219[label = "iu_filter_quality_minoche\nsample: Peremicus_2M", color = "0.10 0.6 0.85", style="rounded"];
+	220[label = "iu_filter_quality_minoche\nsample: Peremicus_3M", color = "0.10 0.6 0.85", style="rounded"];
+	221[label = "iu_filter_quality_minoche\nsample: Peremicus_4M", color = "0.10 0.6 0.85", style="rounded"];
+	222[label = "iu_filter_quality_minoche\nsample: Peremicus_5M", color = "0.10 0.6 0.85", style="rounded"];
+	223[label = "iu_filter_quality_minoche\nsample: Psonoriensis_3F", color = "0.10 0.6 0.85", style="rounded"];
+	224[label = "iu_filter_quality_minoche\nsample: Psonoriensis_4F", color = "0.10 0.6 0.85", style="rounded"];
+	225[label = "iu_filter_quality_minoche\nsample: Psonoriensis_5F", color = "0.10 0.6 0.85", style="rounded"];
+	226[label = "iu_filter_quality_minoche\nsample: Psonoriensis_2F", color = "0.10 0.6 0.85", style="rounded"];
+	227[label = "iu_filter_quality_minoche\nsample: Psonoriensis_1F", color = "0.10 0.6 0.85", style="rounded"];
+	228[label = "iu_filter_quality_minoche\nsample: Psonoriensis_1M", color = "0.10 0.6 0.85", style="rounded"];
+	229[label = "iu_filter_quality_minoche\nsample: Psonoriensis_4M", color = "0.10 0.6 0.85", style="rounded"];
+	230[label = "iu_filter_quality_minoche\nsample: Psonoriensis_3M", color = "0.10 0.6 0.85", style="rounded"];
+	231[label = "iu_filter_quality_minoche\nsample: Psonoriensis_2M", color = "0.10 0.6 0.85", style="rounded"];
+	232[label = "iu_filter_quality_minoche\nsample: Psonoriensis_5M", color = "0.10 0.6 0.85", style="rounded"];
+	233[label = "iu_filter_quality_minoche\nsample: Pcalifornicus_1F", color = "0.10 0.6 0.85", style="rounded"];
+	234[label = "iu_filter_quality_minoche\nsample: Pcalifornicus_2F", color = "0.10 0.6 0.85", style="rounded"];
+	235[label = "iu_filter_quality_minoche\nsample: Pcalifornicus_3F", color = "0.10 0.6 0.85", style="rounded"];
+	236[label = "iu_filter_quality_minoche\nsample: Pcalifornicus_4F", color = "0.10 0.6 0.85", style="rounded"];
+	237[label = "iu_filter_quality_minoche\nsample: Pcalifornicus_5F", color = "0.10 0.6 0.85", style="rounded"];
+	238[label = "iu_filter_quality_minoche\nsample: Pcalifornicus_1M", color = "0.10 0.6 0.85", style="rounded"];
+	239[label = "iu_filter_quality_minoche\nsample: Pcalifornicus_2M", color = "0.10 0.6 0.85", style="rounded"];
+	240[label = "iu_filter_quality_minoche\nsample: Pcalifornicus_3M", color = "0.10 0.6 0.85", style="rounded"];
+	241[label = "iu_filter_quality_minoche\nsample: Pcalifornicus_4M", color = "0.10 0.6 0.85", style="rounded"];
+	242[label = "iu_filter_quality_minoche\nsample: Pcalifornicus_5M", color = "0.10 0.6 0.85", style="rounded"];
+	243[label = "iu_filter_quality_minoche\nsample: Ppolionotus_1F", color = "0.10 0.6 0.85", style="rounded"];
+	244[label = "iu_filter_quality_minoche\nsample: Ppolionotus_1Fa", color = "0.10 0.6 0.85", style="rounded"];
+	245[label = "iu_filter_quality_minoche\nsample: Ppolionotus_2F", color = "0.10 0.6 0.85", style="rounded"];
+	246[label = "iu_filter_quality_minoche\nsample: Ppolionotus_2Fa", color = "0.10 0.6 0.85", style="rounded"];
+	247[label = "iu_filter_quality_minoche\nsample: Ppolionotus_3F", color = "0.10 0.6 0.85", style="rounded"];
+	248[label = "iu_filter_quality_minoche\nsample: Ppolionotus_3Fa", color = "0.10 0.6 0.85", style="rounded"];
+	249[label = "iu_filter_quality_minoche\nsample: Ppolionotus_4F", color = "0.10 0.6 0.85", style="rounded"];
+	250[label = "iu_filter_quality_minoche\nsample: Ppolionotus_4Fa", color = "0.10 0.6 0.85", style="rounded"];
+	251[label = "iu_filter_quality_minoche\nsample: Ppolionotus_5F", color = "0.10 0.6 0.85", style="rounded"];
+	252[label = "iu_filter_quality_minoche\nsample: Ppolionotus_5Fa", color = "0.10 0.6 0.85", style="rounded"];
+	253[label = "iu_filter_quality_minoche\nsample: Ppolionotus_1M", color = "0.10 0.6 0.85", style="rounded"];
+	254[label = "iu_filter_quality_minoche\nsample: Ppolionotus_1Ma", color = "0.10 0.6 0.85", style="rounded"];
+	255[label = "iu_filter_quality_minoche\nsample: Ppolionotus_2M", color = "0.10 0.6 0.85", style="rounded"];
+	256[label = "iu_filter_quality_minoche\nsample: Ppolionotus_2Ma", color = "0.10 0.6 0.85", style="rounded"];
+	257[label = "iu_filter_quality_minoche\nsample: Ppolionotus_3M", color = "0.10 0.6 0.85", style="rounded"];
+	258[label = "iu_filter_quality_minoche\nsample: Ppolionotus_3Ma", color = "0.10 0.6 0.85", style="rounded"];
+	259[label = "iu_filter_quality_minoche\nsample: Ppolionotus_4M", color = "0.10 0.6 0.85", style="rounded"];
+	260[label = "iu_filter_quality_minoche\nsample: Ppolionotus_4Ma", color = "0.10 0.6 0.85", style="rounded"];
+	261[label = "iu_filter_quality_minoche\nsample: Ppolionotus_5M", color = "0.10 0.6 0.85", style="rounded"];
+	262[label = "iu_filter_quality_minoche\nsample: Ppolionotus_5Ma", color = "0.10 0.6 0.85", style="rounded"];
+	263[label = "iu_filter_quality_minoche\nsample: Pmaniculatus_1F", color = "0.10 0.6 0.85", style="rounded"];
+	264[label = "iu_filter_quality_minoche\nsample: Pmaniculatus_2F", color = "0.10 0.6 0.85", style="rounded"];
+	265[label = "iu_filter_quality_minoche\nsample: Pmaniculatus_4F", color = "0.10 0.6 0.85", style="rounded"];
+	266[label = "iu_filter_quality_minoche\nsample: Pmaniculatus_5F", color = "0.10 0.6 0.85", style="rounded"];
+	267[label = "iu_filter_quality_minoche\nsample: Pmaniculatus_1M", color = "0.10 0.6 0.85", style="rounded"];
+	268[label = "iu_filter_quality_minoche\nsample: Pmaniculatus_2M", color = "0.10 0.6 0.85", style="rounded"];
+	269[label = "iu_filter_quality_minoche\nsample: Pmaniculatus_3M", color = "0.10 0.6 0.85", style="rounded"];
+	270[label = "iu_filter_quality_minoche\nsample: Pmaniculatus_4M", color = "0.10 0.6 0.85", style="rounded"];
+	271[label = "iu_filter_quality_minoche\nsample: Pmaniculatus_5M", color = "0.10 0.6 0.85", style="rounded"];
+	272[label = "anvi_script_reformat_fasta", color = "0.04 0.6 0.85", style="rounded"];
+	273[label = "anvi_init_bam", color = "0.54 0.6 0.85", style="rounded"];
+	274[label = "anvi_init_bam", color = "0.54 0.6 0.85", style="rounded"];
+	275[label = "anvi_init_bam", color = "0.54 0.6 0.85", style="rounded"];
+	276[label = "anvi_init_bam", color = "0.54 0.6 0.85", style="rounded"];
+	277[label = "anvi_init_bam", color = "0.54 0.6 0.85", style="rounded"];
+	278[label = "anvi_init_bam", color = "0.54 0.6 0.85", style="rounded"];
+	279[label = "anvi_init_bam", color = "0.54 0.6 0.85", style="rounded"];
+	280[label = "anvi_init_bam", color = "0.54 0.6 0.85", style="rounded"];
+	281[label = "anvi_init_bam", color = "0.54 0.6 0.85", style="rounded"];
+	282[label = "anvi_init_bam", color = "0.54 0.6 0.85", style="rounded"];
+	283[label = "anvi_script_reformat_fasta", color = "0.04 0.6 0.85", style="rounded"];
+	284[label = "anvi_init_bam", color = "0.54 0.6 0.85", style="rounded"];
+	285[label = "anvi_init_bam", color = "0.54 0.6 0.85", style="rounded"];
+	286[label = "anvi_init_bam", color = "0.54 0.6 0.85", style="rounded"];
+	287[label = "anvi_init_bam", color = "0.54 0.6 0.85", style="rounded"];
+	288[label = "anvi_init_bam", color = "0.54 0.6 0.85", style="rounded"];
+	289[label = "anvi_init_bam", color = "0.54 0.6 0.85", style="rounded"];
+	290[label = "anvi_init_bam", color = "0.54 0.6 0.85", style="rounded"];
+	291[label = "anvi_init_bam", color = "0.54 0.6 0.85", style="rounded"];
+	292[label = "anvi_init_bam", color = "0.54 0.6 0.85", style="rounded"];
+	293[label = "anvi_init_bam", color = "0.54 0.6 0.85", style="rounded"];
+	294[label = "anvi_script_reformat_fasta", color = "0.04 0.6 0.85", style="rounded"];
+	295[label = "anvi_init_bam", color = "0.54 0.6 0.85", style="rounded"];
+	296[label = "anvi_init_bam", color = "0.54 0.6 0.85", style="rounded"];
+	297[label = "anvi_init_bam", color = "0.54 0.6 0.85", style="rounded"];
+	298[label = "anvi_init_bam", color = "0.54 0.6 0.85", style="rounded"];
+	299[label = "anvi_init_bam", color = "0.54 0.6 0.85", style="rounded"];
+	300[label = "anvi_init_bam", color = "0.54 0.6 0.85", style="rounded"];
+	301[label = "anvi_init_bam", color = "0.54 0.6 0.85", style="rounded"];
+	302[label = "anvi_init_bam", color = "0.54 0.6 0.85", style="rounded"];
+	303[label = "anvi_init_bam", color = "0.54 0.6 0.85", style="rounded"];
+	304[label = "anvi_init_bam", color = "0.54 0.6 0.85", style="rounded"];
+	305[label = "anvi_script_reformat_fasta", color = "0.04 0.6 0.85", style="rounded"];
+	306[label = "anvi_init_bam", color = "0.54 0.6 0.85", style="rounded"];
+	307[label = "anvi_init_bam", color = "0.54 0.6 0.85", style="rounded"];
+	308[label = "anvi_init_bam", color = "0.54 0.6 0.85", style="rounded"];
+	309[label = "anvi_init_bam", color = "0.54 0.6 0.85", style="rounded"];
+	310[label = "anvi_init_bam", color = "0.54 0.6 0.85", style="rounded"];
+	311[label = "anvi_init_bam", color = "0.54 0.6 0.85", style="rounded"];
+	312[label = "anvi_init_bam", color = "0.54 0.6 0.85", style="rounded"];
+	313[label = "anvi_init_bam", color = "0.54 0.6 0.85", style="rounded"];
+	314[label = "anvi_init_bam", color = "0.54 0.6 0.85", style="rounded"];
+	315[label = "anvi_init_bam", color = "0.54 0.6 0.85", style="rounded"];
+	316[label = "anvi_script_reformat_fasta", color = "0.04 0.6 0.85", style="rounded"];
+	317[label = "anvi_init_bam", color = "0.54 0.6 0.85", style="rounded"];
+	318[label = "anvi_init_bam", color = "0.54 0.6 0.85", style="rounded"];
+	319[label = "anvi_init_bam", color = "0.54 0.6 0.85", style="rounded"];
+	320[label = "anvi_init_bam", color = "0.54 0.6 0.85", style="rounded"];
+	321[label = "anvi_init_bam", color = "0.54 0.6 0.85", style="rounded"];
+	322[label = "anvi_init_bam", color = "0.54 0.6 0.85", style="rounded"];
+	323[label = "anvi_init_bam", color = "0.54 0.6 0.85", style="rounded"];
+	324[label = "anvi_init_bam", color = "0.54 0.6 0.85", style="rounded"];
+	325[label = "anvi_init_bam", color = "0.54 0.6 0.85", style="rounded"];
+	326[label = "anvi_init_bam", color = "0.54 0.6 0.85", style="rounded"];
+	327[label = "anvi_script_reformat_fasta", color = "0.04 0.6 0.85", style="rounded"];
+	328[label = "anvi_init_bam", color = "0.54 0.6 0.85", style="rounded"];
+	329[label = "anvi_init_bam", color = "0.54 0.6 0.85", style="rounded"];
+	330[label = "anvi_init_bam", color = "0.54 0.6 0.85", style="rounded"];
+	331[label = "anvi_init_bam", color = "0.54 0.6 0.85", style="rounded"];
+	332[label = "anvi_init_bam", color = "0.54 0.6 0.85", style="rounded"];
+	333[label = "anvi_init_bam", color = "0.54 0.6 0.85", style="rounded"];
+	334[label = "anvi_init_bam", color = "0.54 0.6 0.85", style="rounded"];
+	335[label = "anvi_init_bam", color = "0.54 0.6 0.85", style="rounded"];
+	336[label = "anvi_init_bam", color = "0.54 0.6 0.85", style="rounded"];
+	337[label = "anvi_init_bam", color = "0.54 0.6 0.85", style="rounded"];
+	338[label = "anvi_script_reformat_fasta", color = "0.04 0.6 0.85", style="rounded"];
+	339[label = "anvi_init_bam", color = "0.54 0.6 0.85", style="rounded"];
+	340[label = "anvi_init_bam", color = "0.54 0.6 0.85", style="rounded"];
+	341[label = "anvi_init_bam", color = "0.54 0.6 0.85", style="rounded"];
+	342[label = "anvi_init_bam", color = "0.54 0.6 0.85", style="rounded"];
+	343[label = "anvi_init_bam", color = "0.54 0.6 0.85", style="rounded"];
+	344[label = "anvi_init_bam", color = "0.54 0.6 0.85", style="rounded"];
+	345[label = "anvi_init_bam", color = "0.54 0.6 0.85", style="rounded"];
+	346[label = "anvi_init_bam", color = "0.54 0.6 0.85", style="rounded"];
+	347[label = "anvi_init_bam", color = "0.54 0.6 0.85", style="rounded"];
+	348[label = "iu_gen_configs", color = "0.51 0.6 0.85", style="rounded"];
+	349[label = "anvi_script_reformat_fasta_prefix_only\ngroup: Pleucopus_3F", color = "0.43 0.6 0.85", style="rounded"];
+	350[label = "samtools_view", color = "0.17 0.6 0.85", style="rounded"];
+	351[label = "samtools_view", color = "0.17 0.6 0.85", style="rounded"];
+	352[label = "samtools_view", color = "0.17 0.6 0.85", style="rounded"];
+	353[label = "samtools_view", color = "0.17 0.6 0.85", style="rounded"];
+	354[label = "samtools_view", color = "0.17 0.6 0.85", style="rounded"];
+	355[label = "samtools_view", color = "0.17 0.6 0.85", style="rounded"];
+	356[label = "samtools_view", color = "0.17 0.6 0.85", style="rounded"];
+	357[label = "samtools_view", color = "0.17 0.6 0.85", style="rounded"];
+	358[label = "samtools_view", color = "0.17 0.6 0.85", style="rounded"];
+	359[label = "samtools_view", color = "0.17 0.6 0.85", style="rounded"];
+	360[label = "anvi_script_reformat_fasta_prefix_only\ngroup: Peremicus_3F", color = "0.43 0.6 0.85", style="rounded"];
+	361[label = "samtools_view", color = "0.17 0.6 0.85", style="rounded"];
+	362[label = "samtools_view", color = "0.17 0.6 0.85", style="rounded"];
+	363[label = "samtools_view", color = "0.17 0.6 0.85", style="rounded"];
+	364[label = "samtools_view", color = "0.17 0.6 0.85", style="rounded"];
+	365[label = "samtools_view", color = "0.17 0.6 0.85", style="rounded"];
+	366[label = "samtools_view", color = "0.17 0.6 0.85", style="rounded"];
+	367[label = "samtools_view", color = "0.17 0.6 0.85", style="rounded"];
+	368[label = "samtools_view", color = "0.17 0.6 0.85", style="rounded"];
+	369[label = "samtools_view", color = "0.17 0.6 0.85", style="rounded"];
+	370[label = "samtools_view", color = "0.17 0.6 0.85", style="rounded"];
+	371[label = "anvi_script_reformat_fasta_prefix_only\ngroup: Psonoriensis_1F", color = "0.43 0.6 0.85", style="rounded"];
+	372[label = "samtools_view", color = "0.17 0.6 0.85", style="rounded"];
+	373[label = "samtools_view", color = "0.17 0.6 0.85", style="rounded"];
+	374[label = "samtools_view", color = "0.17 0.6 0.85", style="rounded"];
+	375[label = "samtools_view", color = "0.17 0.6 0.85", style="rounded"];
+	376[label = "samtools_view", color = "0.17 0.6 0.85", style="rounded"];
+	377[label = "samtools_view", color = "0.17 0.6 0.85", style="rounded"];
+	378[label = "samtools_view", color = "0.17 0.6 0.85", style="rounded"];
+	379[label = "samtools_view", color = "0.17 0.6 0.85", style="rounded"];
+	380[label = "samtools_view", color = "0.17 0.6 0.85", style="rounded"];
+	381[label = "samtools_view", color = "0.17 0.6 0.85", style="rounded"];
+	382[label = "anvi_script_reformat_fasta_prefix_only\ngroup: Pcalifornicus_1F", color = "0.43 0.6 0.85", style="rounded"];
+	383[label = "samtools_view", color = "0.17 0.6 0.85", style="rounded"];
+	384[label = "samtools_view", color = "0.17 0.6 0.85", style="rounded"];
+	385[label = "samtools_view", color = "0.17 0.6 0.85", style="rounded"];
+	386[label = "samtools_view", color = "0.17 0.6 0.85", style="rounded"];
+	387[label = "samtools_view", color = "0.17 0.6 0.85", style="rounded"];
+	388[label = "samtools_view", color = "0.17 0.6 0.85", style="rounded"];
+	389[label = "samtools_view", color = "0.17 0.6 0.85", style="rounded"];
+	390[label = "samtools_view", color = "0.17 0.6 0.85", style="rounded"];
+	391[label = "samtools_view", color = "0.17 0.6 0.85", style="rounded"];
+	392[label = "samtools_view", color = "0.17 0.6 0.85", style="rounded"];
+	393[label = "anvi_script_reformat_fasta_prefix_only\ngroup: Ppolionotus_3F", color = "0.43 0.6 0.85", style="rounded"];
+	394[label = "samtools_view", color = "0.17 0.6 0.85", style="rounded"];
+	395[label = "samtools_view", color = "0.17 0.6 0.85", style="rounded"];
+	396[label = "samtools_view", color = "0.17 0.6 0.85", style="rounded"];
+	397[label = "samtools_view", color = "0.17 0.6 0.85", style="rounded"];
+	398[label = "samtools_view", color = "0.17 0.6 0.85", style="rounded"];
+	399[label = "samtools_view", color = "0.17 0.6 0.85", style="rounded"];
+	400[label = "samtools_view", color = "0.17 0.6 0.85", style="rounded"];
+	401[label = "samtools_view", color = "0.17 0.6 0.85", style="rounded"];
+	402[label = "samtools_view", color = "0.17 0.6 0.85", style="rounded"];
+	403[label = "samtools_view", color = "0.17 0.6 0.85", style="rounded"];
+	404[label = "anvi_script_reformat_fasta_prefix_only\ngroup: Ppolionotus_5F", color = "0.43 0.6 0.85", style="rounded"];
+	405[label = "samtools_view", color = "0.17 0.6 0.85", style="rounded"];
+	406[label = "samtools_view", color = "0.17 0.6 0.85", style="rounded"];
+	407[label = "samtools_view", color = "0.17 0.6 0.85", style="rounded"];
+	408[label = "samtools_view", color = "0.17 0.6 0.85", style="rounded"];
+	409[label = "samtools_view", color = "0.17 0.6 0.85", style="rounded"];
+	410[label = "samtools_view", color = "0.17 0.6 0.85", style="rounded"];
+	411[label = "samtools_view", color = "0.17 0.6 0.85", style="rounded"];
+	412[label = "samtools_view", color = "0.17 0.6 0.85", style="rounded"];
+	413[label = "samtools_view", color = "0.17 0.6 0.85", style="rounded"];
+	414[label = "samtools_view", color = "0.17 0.6 0.85", style="rounded"];
+	415[label = "anvi_script_reformat_fasta_prefix_only\ngroup: Pmaniculatus_1F", color = "0.43 0.6 0.85", style="rounded"];
+	416[label = "samtools_view", color = "0.17 0.6 0.85", style="rounded"];
+	417[label = "samtools_view", color = "0.17 0.6 0.85", style="rounded"];
+	418[label = "samtools_view", color = "0.17 0.6 0.85", style="rounded"];
+	419[label = "samtools_view", color = "0.17 0.6 0.85", style="rounded"];
+	420[label = "samtools_view", color = "0.17 0.6 0.85", style="rounded"];
+	421[label = "samtools_view", color = "0.17 0.6 0.85", style="rounded"];
+	422[label = "samtools_view", color = "0.17 0.6 0.85", style="rounded"];
+	423[label = "samtools_view", color = "0.17 0.6 0.85", style="rounded"];
+	424[label = "samtools_view", color = "0.17 0.6 0.85", style="rounded"];
+	425[label = "bowtie", color = "0.40 0.6 0.85", style="rounded"];
+	426[label = "bowtie", color = "0.40 0.6 0.85", style="rounded"];
+	427[label = "bowtie", color = "0.40 0.6 0.85", style="rounded"];
+	428[label = "bowtie", color = "0.40 0.6 0.85", style="rounded"];
+	429[label = "bowtie", color = "0.40 0.6 0.85", style="rounded"];
+	430[label = "bowtie", color = "0.40 0.6 0.85", style="rounded"];
+	431[label = "bowtie", color = "0.40 0.6 0.85", style="rounded"];
+	432[label = "bowtie", color = "0.40 0.6 0.85", style="rounded"];
+	433[label = "bowtie", color = "0.40 0.6 0.85", style="rounded"];
+	434[label = "bowtie", color = "0.40 0.6 0.85", style="rounded"];
+	435[label = "bowtie", color = "0.40 0.6 0.85", style="rounded"];
+	436[label = "bowtie", color = "0.40 0.6 0.85", style="rounded"];
+	437[label = "bowtie", color = "0.40 0.6 0.85", style="rounded"];
+	438[label = "bowtie", color = "0.40 0.6 0.85", style="rounded"];
+	439[label = "bowtie", color = "0.40 0.6 0.85", style="rounded"];
+	440[label = "bowtie", color = "0.40 0.6 0.85", style="rounded"];
+	441[label = "bowtie", color = "0.40 0.6 0.85", style="rounded"];
+	442[label = "bowtie", color = "0.40 0.6 0.85", style="rounded"];
+	443[label = "bowtie", color = "0.40 0.6 0.85", style="rounded"];
+	444[label = "bowtie", color = "0.40 0.6 0.85", style="rounded"];
+	445[label = "bowtie", color = "0.40 0.6 0.85", style="rounded"];
+	446[label = "bowtie", color = "0.40 0.6 0.85", style="rounded"];
+	447[label = "bowtie", color = "0.40 0.6 0.85", style="rounded"];
+	448[label = "bowtie", color = "0.40 0.6 0.85", style="rounded"];
+	449[label = "bowtie", color = "0.40 0.6 0.85", style="rounded"];
+	450[label = "bowtie", color = "0.40 0.6 0.85", style="rounded"];
+	451[label = "bowtie", color = "0.40 0.6 0.85", style="rounded"];
+	452[label = "bowtie", color = "0.40 0.6 0.85", style="rounded"];
+	453[label = "bowtie", color = "0.40 0.6 0.85", style="rounded"];
+	454[label = "bowtie", color = "0.40 0.6 0.85", style="rounded"];
+	455[label = "bowtie", color = "0.40 0.6 0.85", style="rounded"];
+	456[label = "bowtie", color = "0.40 0.6 0.85", style="rounded"];
+	457[label = "bowtie", color = "0.40 0.6 0.85", style="rounded"];
+	458[label = "bowtie", color = "0.40 0.6 0.85", style="rounded"];
+	459[label = "bowtie", color = "0.40 0.6 0.85", style="rounded"];
+	460[label = "bowtie", color = "0.40 0.6 0.85", style="rounded"];
+	461[label = "bowtie", color = "0.40 0.6 0.85", style="rounded"];
+	462[label = "bowtie", color = "0.40 0.6 0.85", style="rounded"];
+	463[label = "bowtie", color = "0.40 0.6 0.85", style="rounded"];
+	464[label = "bowtie", color = "0.40 0.6 0.85", style="rounded"];
+	465[label = "bowtie", color = "0.40 0.6 0.85", style="rounded"];
+	466[label = "bowtie", color = "0.40 0.6 0.85", style="rounded"];
+	467[label = "bowtie", color = "0.40 0.6 0.85", style="rounded"];
+	468[label = "bowtie", color = "0.40 0.6 0.85", style="rounded"];
+	469[label = "bowtie", color = "0.40 0.6 0.85", style="rounded"];
+	470[label = "bowtie", color = "0.40 0.6 0.85", style="rounded"];
+	471[label = "bowtie", color = "0.40 0.6 0.85", style="rounded"];
+	472[label = "bowtie", color = "0.40 0.6 0.85", style="rounded"];
+	473[label = "bowtie", color = "0.40 0.6 0.85", style="rounded"];
+	474[label = "bowtie", color = "0.40 0.6 0.85", style="rounded"];
+	475[label = "bowtie", color = "0.40 0.6 0.85", style="rounded"];
+	476[label = "bowtie", color = "0.40 0.6 0.85", style="rounded"];
+	477[label = "bowtie", color = "0.40 0.6 0.85", style="rounded"];
+	478[label = "bowtie", color = "0.40 0.6 0.85", style="rounded"];
+	479[label = "bowtie", color = "0.40 0.6 0.85", style="rounded"];
+	480[label = "bowtie", color = "0.40 0.6 0.85", style="rounded"];
+	481[label = "bowtie", color = "0.40 0.6 0.85", style="rounded"];
+	482[label = "bowtie", color = "0.40 0.6 0.85", style="rounded"];
+	483[label = "bowtie", color = "0.40 0.6 0.85", style="rounded"];
+	484[label = "bowtie", color = "0.40 0.6 0.85", style="rounded"];
+	485[label = "bowtie", color = "0.40 0.6 0.85", style="rounded"];
+	486[label = "bowtie", color = "0.40 0.6 0.85", style="rounded"];
+	487[label = "bowtie", color = "0.40 0.6 0.85", style="rounded"];
+	488[label = "bowtie", color = "0.40 0.6 0.85", style="rounded"];
+	489[label = "bowtie", color = "0.40 0.6 0.85", style="rounded"];
+	490[label = "bowtie", color = "0.40 0.6 0.85", style="rounded"];
+	491[label = "bowtie", color = "0.40 0.6 0.85", style="rounded"];
+	492[label = "bowtie", color = "0.40 0.6 0.85", style="rounded"];
+	493[label = "bowtie", color = "0.40 0.6 0.85", style="rounded"];
+	494[label = "bowtie_build", color = "0.01 0.6 0.85", style="rounded"];
+	495[label = "gzip_fastqs\nR: R1", color = "0.47 0.6 0.85", style="rounded"];
+	496[label = "gzip_fastqs\nR: R2", color = "0.47 0.6 0.85", style="rounded"];
+	497[label = "gzip_fastqs\nR: R1", color = "0.47 0.6 0.85", style="rounded"];
+	498[label = "gzip_fastqs\nR: R2", color = "0.47 0.6 0.85", style="rounded"];
+	499[label = "gzip_fastqs\nR: R1", color = "0.47 0.6 0.85", style="rounded"];
+	500[label = "gzip_fastqs\nR: R2", color = "0.47 0.6 0.85", style="rounded"];
+	501[label = "gzip_fastqs\nR: R1", color = "0.47 0.6 0.85", style="rounded"];
+	502[label = "gzip_fastqs\nR: R2", color = "0.47 0.6 0.85", style="rounded"];
+	503[label = "gzip_fastqs\nR: R1", color = "0.47 0.6 0.85", style="rounded"];
+	504[label = "gzip_fastqs\nR: R2", color = "0.47 0.6 0.85", style="rounded"];
+	505[label = "gzip_fastqs\nR: R1", color = "0.47 0.6 0.85", style="rounded"];
+	506[label = "gzip_fastqs\nR: R2", color = "0.47 0.6 0.85", style="rounded"];
+	507[label = "gzip_fastqs\nR: R1", color = "0.47 0.6 0.85", style="rounded"];
+	508[label = "gzip_fastqs\nR: R2", color = "0.47 0.6 0.85", style="rounded"];
+	509[label = "gzip_fastqs\nR: R1", color = "0.47 0.6 0.85", style="rounded"];
+	510[label = "gzip_fastqs\nR: R2", color = "0.47 0.6 0.85", style="rounded"];
+	511[label = "gzip_fastqs\nR: R1", color = "0.47 0.6 0.85", style="rounded"];
+	512[label = "gzip_fastqs\nR: R2", color = "0.47 0.6 0.85", style="rounded"];
+	513[label = "gzip_fastqs\nR: R1", color = "0.47 0.6 0.85", style="rounded"];
+	514[label = "gzip_fastqs\nR: R2", color = "0.47 0.6 0.85", style="rounded"];
+	515[label = "bowtie_build", color = "0.01 0.6 0.85", style="rounded"];
+	516[label = "gzip_fastqs\nR: R1", color = "0.47 0.6 0.85", style="rounded"];
+	517[label = "gzip_fastqs\nR: R2", color = "0.47 0.6 0.85", style="rounded"];
+	518[label = "gzip_fastqs\nR: R1", color = "0.47 0.6 0.85", style="rounded"];
+	519[label = "gzip_fastqs\nR: R2", color = "0.47 0.6 0.85", style="rounded"];
+	520[label = "gzip_fastqs\nR: R1", color = "0.47 0.6 0.85", style="rounded"];
+	521[label = "gzip_fastqs\nR: R2", color = "0.47 0.6 0.85", style="rounded"];
+	522[label = "gzip_fastqs\nR: R1", color = "0.47 0.6 0.85", style="rounded"];
+	523[label = "gzip_fastqs\nR: R2", color = "0.47 0.6 0.85", style="rounded"];
+	524[label = "gzip_fastqs\nR: R1", color = "0.47 0.6 0.85", style="rounded"];
+	525[label = "gzip_fastqs\nR: R2", color = "0.47 0.6 0.85", style="rounded"];
+	526[label = "gzip_fastqs\nR: R1", color = "0.47 0.6 0.85", style="rounded"];
+	527[label = "gzip_fastqs\nR: R2", color = "0.47 0.6 0.85", style="rounded"];
+	528[label = "gzip_fastqs\nR: R1", color = "0.47 0.6 0.85", style="rounded"];
+	529[label = "gzip_fastqs\nR: R2", color = "0.47 0.6 0.85", style="rounded"];
+	530[label = "gzip_fastqs\nR: R1", color = "0.47 0.6 0.85", style="rounded"];
+	531[label = "gzip_fastqs\nR: R2", color = "0.47 0.6 0.85", style="rounded"];
+	532[label = "gzip_fastqs\nR: R1", color = "0.47 0.6 0.85", style="rounded"];
+	533[label = "gzip_fastqs\nR: R2", color = "0.47 0.6 0.85", style="rounded"];
+	534[label = "gzip_fastqs\nR: R1", color = "0.47 0.6 0.85", style="rounded"];
+	535[label = "gzip_fastqs\nR: R2", color = "0.47 0.6 0.85", style="rounded"];
+	536[label = "bowtie_build", color = "0.01 0.6 0.85", style="rounded"];
+	537[label = "gzip_fastqs\nR: R1", color = "0.47 0.6 0.85", style="rounded"];
+	538[label = "gzip_fastqs\nR: R2", color = "0.47 0.6 0.85", style="rounded"];
+	539[label = "gzip_fastqs\nR: R1", color = "0.47 0.6 0.85", style="rounded"];
+	540[label = "gzip_fastqs\nR: R2", color = "0.47 0.6 0.85", style="rounded"];
+	541[label = "gzip_fastqs\nR: R1", color = "0.47 0.6 0.85", style="rounded"];
+	542[label = "gzip_fastqs\nR: R2", color = "0.47 0.6 0.85", style="rounded"];
+	543[label = "gzip_fastqs\nR: R1", color = "0.47 0.6 0.85", style="rounded"];
+	544[label = "gzip_fastqs\nR: R2", color = "0.47 0.6 0.85", style="rounded"];
+	545[label = "gzip_fastqs\nR: R1", color = "0.47 0.6 0.85", style="rounded"];
+	546[label = "gzip_fastqs\nR: R2", color = "0.47 0.6 0.85", style="rounded"];
+	547[label = "gzip_fastqs\nR: R1", color = "0.47 0.6 0.85", style="rounded"];
+	548[label = "gzip_fastqs\nR: R2", color = "0.47 0.6 0.85", style="rounded"];
+	549[label = "gzip_fastqs\nR: R1", color = "0.47 0.6 0.85", style="rounded"];
+	550[label = "gzip_fastqs\nR: R2", color = "0.47 0.6 0.85", style="rounded"];
+	551[label = "gzip_fastqs\nR: R1", color = "0.47 0.6 0.85", style="rounded"];
+	552[label = "gzip_fastqs\nR: R2", color = "0.47 0.6 0.85", style="rounded"];
+	553[label = "gzip_fastqs\nR: R1", color = "0.47 0.6 0.85", style="rounded"];
+	554[label = "gzip_fastqs\nR: R2", color = "0.47 0.6 0.85", style="rounded"];
+	555[label = "gzip_fastqs\nR: R1", color = "0.47 0.6 0.85", style="rounded"];
+	556[label = "gzip_fastqs\nR: R2", color = "0.47 0.6 0.85", style="rounded"];
+	557[label = "bowtie_build", color = "0.01 0.6 0.85", style="rounded"];
+	558[label = "gzip_fastqs\nR: R1", color = "0.47 0.6 0.85", style="rounded"];
+	559[label = "gzip_fastqs\nR: R2", color = "0.47 0.6 0.85", style="rounded"];
+	560[label = "gzip_fastqs\nR: R1", color = "0.47 0.6 0.85", style="rounded"];
+	561[label = "gzip_fastqs\nR: R2", color = "0.47 0.6 0.85", style="rounded"];
+	562[label = "gzip_fastqs\nR: R1", color = "0.47 0.6 0.85", style="rounded"];
+	563[label = "gzip_fastqs\nR: R2", color = "0.47 0.6 0.85", style="rounded"];
+	564[label = "gzip_fastqs\nR: R1", color = "0.47 0.6 0.85", style="rounded"];
+	565[label = "gzip_fastqs\nR: R2", color = "0.47 0.6 0.85", style="rounded"];
+	566[label = "gzip_fastqs\nR: R1", color = "0.47 0.6 0.85", style="rounded"];
+	567[label = "gzip_fastqs\nR: R2", color = "0.47 0.6 0.85", style="rounded"];
+	568[label = "gzip_fastqs\nR: R1", color = "0.47 0.6 0.85", style="rounded"];
+	569[label = "gzip_fastqs\nR: R2", color = "0.47 0.6 0.85", style="rounded"];
+	570[label = "gzip_fastqs\nR: R1", color = "0.47 0.6 0.85", style="rounded"];
+	571[label = "gzip_fastqs\nR: R2", color = "0.47 0.6 0.85", style="rounded"];
+	572[label = "gzip_fastqs\nR: R1", color = "0.47 0.6 0.85", style="rounded"];
+	573[label = "gzip_fastqs\nR: R2", color = "0.47 0.6 0.85", style="rounded"];
+	574[label = "gzip_fastqs\nR: R1", color = "0.47 0.6 0.85", style="rounded"];
+	575[label = "gzip_fastqs\nR: R2", color = "0.47 0.6 0.85", style="rounded"];
+	576[label = "gzip_fastqs\nR: R1", color = "0.47 0.6 0.85", style="rounded"];
+	577[label = "gzip_fastqs\nR: R2", color = "0.47 0.6 0.85", style="rounded"];
+	578[label = "bowtie_build", color = "0.01 0.6 0.85", style="rounded"];
+	579[label = "gzip_fastqs\nR: R1", color = "0.47 0.6 0.85", style="rounded"];
+	580[label = "gzip_fastqs\nR: R2", color = "0.47 0.6 0.85", style="rounded"];
+	581[label = "gzip_fastqs\nR: R1", color = "0.47 0.6 0.85", style="rounded"];
+	582[label = "gzip_fastqs\nR: R2", color = "0.47 0.6 0.85", style="rounded"];
+	583[label = "gzip_fastqs\nR: R1", color = "0.47 0.6 0.85", style="rounded"];
+	584[label = "gzip_fastqs\nR: R2", color = "0.47 0.6 0.85", style="rounded"];
+	585[label = "gzip_fastqs\nR: R1", color = "0.47 0.6 0.85", style="rounded"];
+	586[label = "gzip_fastqs\nR: R2", color = "0.47 0.6 0.85", style="rounded"];
+	587[label = "gzip_fastqs\nR: R1", color = "0.47 0.6 0.85", style="rounded"];
+	588[label = "gzip_fastqs\nR: R2", color = "0.47 0.6 0.85", style="rounded"];
+	589[label = "gzip_fastqs\nR: R1", color = "0.47 0.6 0.85", style="rounded"];
+	590[label = "gzip_fastqs\nR: R2", color = "0.47 0.6 0.85", style="rounded"];
+	591[label = "gzip_fastqs\nR: R1", color = "0.47 0.6 0.85", style="rounded"];
+	592[label = "gzip_fastqs\nR: R2", color = "0.47 0.6 0.85", style="rounded"];
+	593[label = "gzip_fastqs\nR: R1", color = "0.47 0.6 0.85", style="rounded"];
+	594[label = "gzip_fastqs\nR: R2", color = "0.47 0.6 0.85", style="rounded"];
+	595[label = "gzip_fastqs\nR: R1", color = "0.47 0.6 0.85", style="rounded"];
+	596[label = "gzip_fastqs\nR: R2", color = "0.47 0.6 0.85", style="rounded"];
+	597[label = "gzip_fastqs\nR: R1", color = "0.47 0.6 0.85", style="rounded"];
+	598[label = "gzip_fastqs\nR: R2", color = "0.47 0.6 0.85", style="rounded"];
+	599[label = "bowtie_build", color = "0.01 0.6 0.85", style="rounded"];
+	600[label = "gzip_fastqs\nR: R1", color = "0.47 0.6 0.85", style="rounded"];
+	601[label = "gzip_fastqs\nR: R2", color = "0.47 0.6 0.85", style="rounded"];
+	602[label = "gzip_fastqs\nR: R1", color = "0.47 0.6 0.85", style="rounded"];
+	603[label = "gzip_fastqs\nR: R2", color = "0.47 0.6 0.85", style="rounded"];
+	604[label = "gzip_fastqs\nR: R1", color = "0.47 0.6 0.85", style="rounded"];
+	605[label = "gzip_fastqs\nR: R2", color = "0.47 0.6 0.85", style="rounded"];
+	606[label = "gzip_fastqs\nR: R1", color = "0.47 0.6 0.85", style="rounded"];
+	607[label = "gzip_fastqs\nR: R2", color = "0.47 0.6 0.85", style="rounded"];
+	608[label = "gzip_fastqs\nR: R1", color = "0.47 0.6 0.85", style="rounded"];
+	609[label = "gzip_fastqs\nR: R2", color = "0.47 0.6 0.85", style="rounded"];
+	610[label = "gzip_fastqs\nR: R1", color = "0.47 0.6 0.85", style="rounded"];
+	611[label = "gzip_fastqs\nR: R2", color = "0.47 0.6 0.85", style="rounded"];
+	612[label = "gzip_fastqs\nR: R1", color = "0.47 0.6 0.85", style="rounded"];
+	613[label = "gzip_fastqs\nR: R2", color = "0.47 0.6 0.85", style="rounded"];
+	614[label = "gzip_fastqs\nR: R1", color = "0.47 0.6 0.85", style="rounded"];
+	615[label = "gzip_fastqs\nR: R2", color = "0.47 0.6 0.85", style="rounded"];
+	616[label = "gzip_fastqs\nR: R1", color = "0.47 0.6 0.85", style="rounded"];
+	617[label = "gzip_fastqs\nR: R2", color = "0.47 0.6 0.85", style="rounded"];
+	618[label = "gzip_fastqs\nR: R1", color = "0.47 0.6 0.85", style="rounded"];
+	619[label = "gzip_fastqs\nR: R2", color = "0.47 0.6 0.85", style="rounded"];
+	620[label = "bowtie_build", color = "0.01 0.6 0.85", style="rounded"];
+	621[label = "gzip_fastqs\nR: R1", color = "0.47 0.6 0.85", style="rounded"];
+	622[label = "gzip_fastqs\nR: R2", color = "0.47 0.6 0.85", style="rounded"];
+	623[label = "gzip_fastqs\nR: R1", color = "0.47 0.6 0.85", style="rounded"];
+	624[label = "gzip_fastqs\nR: R2", color = "0.47 0.6 0.85", style="rounded"];
+	625[label = "gzip_fastqs\nR: R1", color = "0.47 0.6 0.85", style="rounded"];
+	626[label = "gzip_fastqs\nR: R2", color = "0.47 0.6 0.85", style="rounded"];
+	627[label = "gzip_fastqs\nR: R1", color = "0.47 0.6 0.85", style="rounded"];
+	628[label = "gzip_fastqs\nR: R2", color = "0.47 0.6 0.85", style="rounded"];
+	629[label = "gzip_fastqs\nR: R1", color = "0.47 0.6 0.85", style="rounded"];
+	630[label = "gzip_fastqs\nR: R2", color = "0.47 0.6 0.85", style="rounded"];
+	631[label = "gzip_fastqs\nR: R1", color = "0.47 0.6 0.85", style="rounded"];
+	632[label = "gzip_fastqs\nR: R2", color = "0.47 0.6 0.85", style="rounded"];
+	633[label = "gzip_fastqs\nR: R1", color = "0.47 0.6 0.85", style="rounded"];
+	634[label = "gzip_fastqs\nR: R2", color = "0.47 0.6 0.85", style="rounded"];
+	635[label = "gzip_fastqs\nR: R1", color = "0.47 0.6 0.85", style="rounded"];
+	636[label = "gzip_fastqs\nR: R2", color = "0.47 0.6 0.85", style="rounded"];
+	637[label = "gzip_fastqs\nR: R1", color = "0.47 0.6 0.85", style="rounded"];
+	638[label = "gzip_fastqs\nR: R2", color = "0.47 0.6 0.85", style="rounded"];
+	1 -> 0
+	2 -> 0
+	3 -> 0
+	4 -> 0
+	5 -> 0
+	6 -> 0
+	7 -> 0
+	8 -> 0
+	9 -> 0
+	10 -> 0
+	11 -> 0
+	12 -> 0
+	13 -> 0
+	14 -> 0
+	15 -> 0
+	16 -> 0
+	17 -> 0
+	18 -> 0
+	19 -> 0
+	20 -> 0
+	21 -> 0
+	22 -> 0
+	23 -> 0
+	24 -> 0
+	25 -> 0
+	26 -> 0
+	27 -> 0
+	28 -> 0
+	29 -> 0
+	30 -> 1
+	31 -> 1
+	32 -> 1
+	33 -> 1
+	34 -> 1
+	35 -> 1
+	36 -> 1
+	37 -> 1
+	38 -> 1
+	39 -> 1
+	40 -> 1
+	41 -> 1
+	42 -> 1
+	43 -> 1
+	44 -> 1
+	45 -> 1
+	46 -> 1
+	47 -> 1
+	48 -> 1
+	49 -> 1
+	50 -> 1
+	51 -> 2
+	52 -> 2
+	53 -> 2
+	54 -> 2
+	55 -> 2
+	56 -> 2
+	57 -> 2
+	58 -> 2
+	59 -> 2
+	60 -> 2
+	61 -> 2
+	62 -> 2
+	63 -> 2
+	64 -> 2
+	65 -> 2
+	66 -> 2
+	67 -> 2
+	68 -> 2
+	69 -> 2
+	70 -> 2
+	71 -> 2
+	72 -> 3
+	73 -> 3
+	74 -> 3
+	75 -> 3
+	76 -> 3
+	77 -> 3
+	78 -> 3
+	79 -> 3
+	80 -> 3
+	81 -> 3
+	82 -> 3
+	83 -> 3
+	84 -> 3
+	85 -> 3
+	86 -> 3
+	87 -> 3
+	88 -> 3
+	89 -> 3
+	90 -> 3
+	91 -> 3
+	92 -> 3
+	93 -> 4
+	94 -> 4
+	95 -> 4
+	96 -> 4
+	97 -> 4
+	98 -> 4
+	99 -> 4
+	100 -> 4
+	101 -> 4
+	102 -> 4
+	103 -> 4
+	104 -> 4
+	105 -> 4
+	106 -> 4
+	107 -> 4
+	108 -> 4
+	109 -> 4
+	110 -> 4
+	111 -> 4
+	112 -> 4
+	113 -> 4
+	114 -> 5
+	115 -> 5
+	116 -> 5
+	117 -> 5
+	118 -> 5
+	119 -> 5
+	120 -> 5
+	121 -> 5
+	122 -> 5
+	123 -> 5
+	124 -> 5
+	125 -> 5
+	126 -> 5
+	127 -> 5
+	128 -> 5
+	129 -> 5
+	130 -> 5
+	131 -> 5
+	132 -> 5
+	133 -> 5
+	134 -> 5
+	135 -> 6
+	136 -> 6
+	137 -> 6
+	138 -> 6
+	139 -> 6
+	140 -> 6
+	141 -> 6
+	142 -> 6
+	143 -> 6
+	144 -> 6
+	145 -> 6
+	146 -> 6
+	147 -> 6
+	148 -> 6
+	149 -> 6
+	150 -> 6
+	151 -> 6
+	152 -> 6
+	153 -> 6
+	154 -> 6
+	155 -> 6
+	156 -> 7
+	157 -> 7
+	158 -> 7
+	159 -> 7
+	160 -> 7
+	161 -> 7
+	162 -> 7
+	163 -> 7
+	164 -> 7
+	165 -> 7
+	166 -> 7
+	167 -> 7
+	168 -> 7
+	169 -> 7
+	170 -> 7
+	171 -> 7
+	172 -> 7
+	173 -> 7
+	174 -> 7
+	30 -> 8
+	175 -> 8
+	176 -> 8
+	177 -> 8
+	178 -> 8
+	51 -> 9
+	179 -> 9
+	180 -> 9
+	181 -> 9
+	182 -> 9
+	72 -> 10
+	183 -> 10
+	184 -> 10
+	185 -> 10
+	186 -> 10
+	93 -> 11
+	187 -> 11
+	188 -> 11
+	189 -> 11
+	190 -> 11
+	114 -> 12
+	191 -> 12
+	192 -> 12
+	193 -> 12
+	194 -> 12
+	135 -> 13
+	195 -> 13
+	196 -> 13
+	197 -> 13
+	198 -> 13
+	156 -> 14
+	199 -> 14
+	200 -> 14
+	201 -> 14
+	202 -> 14
+	203 -> 15
+	204 -> 15
+	205 -> 15
+	206 -> 15
+	207 -> 15
+	208 -> 15
+	209 -> 15
+	210 -> 15
+	211 -> 15
+	212 -> 15
+	213 -> 15
+	214 -> 15
+	215 -> 15
+	216 -> 15
+	217 -> 15
+	218 -> 15
+	219 -> 15
+	220 -> 15
+	221 -> 15
+	222 -> 15
+	223 -> 15
+	224 -> 15
+	225 -> 15
+	226 -> 15
+	227 -> 15
+	228 -> 15
+	229 -> 15
+	230 -> 15
+	231 -> 15
+	232 -> 15
+	233 -> 15
+	234 -> 15
+	235 -> 15
+	236 -> 15
+	237 -> 15
+	238 -> 15
+	239 -> 15
+	240 -> 15
+	241 -> 15
+	242 -> 15
+	243 -> 15
+	244 -> 15
+	245 -> 15
+	246 -> 15
+	247 -> 15
+	248 -> 15
+	249 -> 15
+	250 -> 15
+	251 -> 15
+	252 -> 15
+	253 -> 15
+	254 -> 15
+	255 -> 15
+	256 -> 15
+	257 -> 15
+	258 -> 15
+	259 -> 15
+	260 -> 15
+	261 -> 15
+	262 -> 15
+	263 -> 15
+	264 -> 15
+	265 -> 15
+	266 -> 15
+	267 -> 15
+	268 -> 15
+	269 -> 15
+	270 -> 15
+	271 -> 15
+	30 -> 16
+	1 -> 16
+	51 -> 17
+	2 -> 17
+	72 -> 18
+	3 -> 18
+	93 -> 19
+	4 -> 19
+	114 -> 20
+	5 -> 20
+	135 -> 21
+	6 -> 21
+	156 -> 22
+	7 -> 22
+	30 -> 23
+	1 -> 23
+	51 -> 24
+	2 -> 24
+	72 -> 25
+	3 -> 25
+	93 -> 26
+	4 -> 26
+	114 -> 27
+	5 -> 27
+	135 -> 28
+	6 -> 28
+	156 -> 29
+	7 -> 29
+	272 -> 30
+	273 -> 31
+	30 -> 31
+	274 -> 32
+	30 -> 32
+	275 -> 33
+	30 -> 33
+	276 -> 34
+	30 -> 34
+	277 -> 35
+	30 -> 35
+	278 -> 36
+	30 -> 36
+	279 -> 37
+	30 -> 37
+	280 -> 38
+	30 -> 38
+	281 -> 39
+	30 -> 39
+	282 -> 40
+	30 -> 40
+	31 -> 41
+	32 -> 42
+	33 -> 43
+	34 -> 44
+	35 -> 45
+	36 -> 46
+	37 -> 47
+	38 -> 48
+	39 -> 49
+	40 -> 50
+	283 -> 51
+	284 -> 52
+	51 -> 52
+	285 -> 53
+	51 -> 53
+	286 -> 54
+	51 -> 54
+	287 -> 55
+	51 -> 55
+	288 -> 56
+	51 -> 56
+	289 -> 57
+	51 -> 57
+	290 -> 58
+	51 -> 58
+	291 -> 59
+	51 -> 59
+	292 -> 60
+	51 -> 60
+	293 -> 61
+	51 -> 61
+	52 -> 62
+	53 -> 63
+	54 -> 64
+	55 -> 65
+	56 -> 66
+	57 -> 67
+	58 -> 68
+	59 -> 69
+	60 -> 70
+	61 -> 71
+	294 -> 72
+	295 -> 73
+	72 -> 73
+	296 -> 74
+	72 -> 74
+	297 -> 75
+	72 -> 75
+	298 -> 76
+	72 -> 76
+	299 -> 77
+	72 -> 77
+	300 -> 78
+	72 -> 78
+	301 -> 79
+	72 -> 79
+	302 -> 80
+	72 -> 80
+	303 -> 81
+	72 -> 81
+	304 -> 82
+	72 -> 82
+	73 -> 83
+	74 -> 84
+	75 -> 85
+	76 -> 86
+	77 -> 87
+	78 -> 88
+	79 -> 89
+	80 -> 90
+	81 -> 91
+	82 -> 92
+	305 -> 93
+	306 -> 94
+	93 -> 94
+	307 -> 95
+	93 -> 95
+	308 -> 96
+	93 -> 96
+	309 -> 97
+	93 -> 97
+	310 -> 98
+	93 -> 98
+	311 -> 99
+	93 -> 99
+	312 -> 100
+	93 -> 100
+	313 -> 101
+	93 -> 101
+	314 -> 102
+	93 -> 102
+	315 -> 103
+	93 -> 103
+	94 -> 104
+	95 -> 105
+	96 -> 106
+	97 -> 107
+	98 -> 108
+	99 -> 109
+	100 -> 110
+	101 -> 111
+	102 -> 112
+	103 -> 113
+	316 -> 114
+	317 -> 115
+	114 -> 115
+	318 -> 116
+	114 -> 116
+	319 -> 117
+	114 -> 117
+	320 -> 118
+	114 -> 118
+	321 -> 119
+	114 -> 119
+	322 -> 120
+	114 -> 120
+	323 -> 121
+	114 -> 121
+	324 -> 122
+	114 -> 122
+	325 -> 123
+	114 -> 123
+	326 -> 124
+	114 -> 124
+	115 -> 125
+	116 -> 126
+	117 -> 127
+	118 -> 128
+	119 -> 129
+	120 -> 130
+	121 -> 131
+	122 -> 132
+	123 -> 133
+	124 -> 134
+	327 -> 135
+	328 -> 136
+	135 -> 136
+	329 -> 137
+	135 -> 137
+	330 -> 138
+	135 -> 138
+	331 -> 139
+	135 -> 139
+	332 -> 140
+	135 -> 140
+	333 -> 141
+	135 -> 141
+	334 -> 142
+	135 -> 142
+	335 -> 143
+	135 -> 143
+	336 -> 144
+	135 -> 144
+	337 -> 145
+	135 -> 145
+	136 -> 146
+	137 -> 147
+	138 -> 148
+	139 -> 149
+	140 -> 150
+	141 -> 151
+	142 -> 152
+	143 -> 153
+	144 -> 154
+	145 -> 155
+	338 -> 156
+	339 -> 157
+	156 -> 157
+	340 -> 158
+	156 -> 158
+	341 -> 159
+	156 -> 159
+	342 -> 160
+	156 -> 160
+	343 -> 161
+	156 -> 161
+	344 -> 162
+	156 -> 162
+	345 -> 163
+	156 -> 163
+	346 -> 164
+	156 -> 164
+	347 -> 165
+	156 -> 165
+	157 -> 166
+	158 -> 167
+	159 -> 168
+	160 -> 169
+	161 -> 170
+	162 -> 171
+	163 -> 172
+	164 -> 173
+	165 -> 174
+	30 -> 175
+	30 -> 176
+	175 -> 177
+	30 -> 177
+	30 -> 178
+	51 -> 179
+	51 -> 180
+	179 -> 181
+	51 -> 181
+	51 -> 182
+	72 -> 183
+	72 -> 184
+	183 -> 185
+	72 -> 185
+	72 -> 186
+	93 -> 187
+	93 -> 188
+	187 -> 189
+	93 -> 189
+	93 -> 190
+	114 -> 191
+	114 -> 192
+	191 -> 193
+	114 -> 193
+	114 -> 194
+	135 -> 195
+	135 -> 196
+	195 -> 197
+	135 -> 197
+	135 -> 198
+	156 -> 199
+	156 -> 200
+	199 -> 201
+	156 -> 201
+	156 -> 202
+	348 -> 203
+	348 -> 204
+	348 -> 205
+	348 -> 206
+	348 -> 207
+	348 -> 208
+	348 -> 209
+	348 -> 210
+	348 -> 211
+	348 -> 212
+	348 -> 213
+	348 -> 214
+	348 -> 215
+	348 -> 216
+	348 -> 217
+	348 -> 218
+	348 -> 219
+	348 -> 220
+	348 -> 221
+	348 -> 222
+	348 -> 223
+	348 -> 224
+	348 -> 225
+	348 -> 226
+	348 -> 227
+	348 -> 228
+	348 -> 229
+	348 -> 230
+	348 -> 231
+	348 -> 232
+	348 -> 233
+	348 -> 234
+	348 -> 235
+	348 -> 236
+	348 -> 237
+	348 -> 238
+	348 -> 239
+	348 -> 240
+	348 -> 241
+	348 -> 242
+	348 -> 243
+	348 -> 244
+	348 -> 245
+	348 -> 246
+	348 -> 247
+	348 -> 248
+	348 -> 249
+	348 -> 250
+	348 -> 251
+	348 -> 252
+	348 -> 253
+	348 -> 254
+	348 -> 255
+	348 -> 256
+	348 -> 257
+	348 -> 258
+	348 -> 259
+	348 -> 260
+	348 -> 261
+	348 -> 262
+	348 -> 263
+	348 -> 264
+	348 -> 265
+	348 -> 266
+	348 -> 267
+	348 -> 268
+	348 -> 269
+	348 -> 270
+	348 -> 271
+	349 -> 272
+	350 -> 273
+	351 -> 274
+	352 -> 275
+	353 -> 276
+	354 -> 277
+	355 -> 278
+	356 -> 279
+	357 -> 280
+	358 -> 281
+	359 -> 282
+	360 -> 283
+	361 -> 284
+	362 -> 285
+	363 -> 286
+	364 -> 287
+	365 -> 288
+	366 -> 289
+	367 -> 290
+	368 -> 291
+	369 -> 292
+	370 -> 293
+	371 -> 294
+	372 -> 295
+	373 -> 296
+	374 -> 297
+	375 -> 298
+	376 -> 299
+	377 -> 300
+	378 -> 301
+	379 -> 302
+	380 -> 303
+	381 -> 304
+	382 -> 305
+	383 -> 306
+	384 -> 307
+	385 -> 308
+	386 -> 309
+	387 -> 310
+	388 -> 311
+	389 -> 312
+	390 -> 313
+	391 -> 314
+	392 -> 315
+	393 -> 316
+	394 -> 317
+	395 -> 318
+	396 -> 319
+	397 -> 320
+	398 -> 321
+	399 -> 322
+	400 -> 323
+	401 -> 324
+	402 -> 325
+	403 -> 326
+	404 -> 327
+	405 -> 328
+	406 -> 329
+	407 -> 330
+	408 -> 331
+	409 -> 332
+	410 -> 333
+	411 -> 334
+	412 -> 335
+	413 -> 336
+	414 -> 337
+	415 -> 338
+	416 -> 339
+	417 -> 340
+	418 -> 341
+	419 -> 342
+	420 -> 343
+	421 -> 344
+	422 -> 345
+	423 -> 346
+	424 -> 347
+	425 -> 350
+	426 -> 351
+	427 -> 352
+	428 -> 353
+	429 -> 354
+	430 -> 355
+	431 -> 356
+	432 -> 357
+	433 -> 358
+	434 -> 359
+	435 -> 361
+	436 -> 362
+	437 -> 363
+	438 -> 364
+	439 -> 365
+	440 -> 366
+	441 -> 367
+	442 -> 368
+	443 -> 369
+	444 -> 370
+	445 -> 372
+	446 -> 373
+	447 -> 374
+	448 -> 375
+	449 -> 376
+	450 -> 377
+	451 -> 378
+	452 -> 379
+	453 -> 380
+	454 -> 381
+	455 -> 383
+	456 -> 384
+	457 -> 385
+	458 -> 386
+	459 -> 387
+	460 -> 388
+	461 -> 389
+	462 -> 390
+	463 -> 391
+	464 -> 392
+	465 -> 394
+	466 -> 395
+	467 -> 396
+	468 -> 397
+	469 -> 398
+	470 -> 399
+	471 -> 400
+	472 -> 401
+	473 -> 402
+	474 -> 403
+	475 -> 405
+	476 -> 406
+	477 -> 407
+	478 -> 408
+	479 -> 409
+	480 -> 410
+	481 -> 411
+	482 -> 412
+	483 -> 413
+	484 -> 414
+	485 -> 416
+	486 -> 417
+	487 -> 418
+	488 -> 419
+	489 -> 420
+	490 -> 421
+	491 -> 422
+	492 -> 423
+	493 -> 424
+	494 -> 425
+	495 -> 425
+	496 -> 425
+	494 -> 426
+	497 -> 426
+	498 -> 426
+	494 -> 427
+	499 -> 427
+	500 -> 427
+	494 -> 428
+	501 -> 428
+	502 -> 428
+	494 -> 429
+	503 -> 429
+	504 -> 429
+	494 -> 430
+	505 -> 430
+	506 -> 430
+	494 -> 431
+	507 -> 431
+	508 -> 431
+	494 -> 432
+	509 -> 432
+	510 -> 432
+	494 -> 433
+	511 -> 433
+	512 -> 433
+	494 -> 434
+	513 -> 434
+	514 -> 434
+	515 -> 435
+	516 -> 435
+	517 -> 435
+	515 -> 436
+	518 -> 436
+	519 -> 436
+	515 -> 437
+	520 -> 437
+	521 -> 437
+	515 -> 438
+	522 -> 438
+	523 -> 438
+	515 -> 439
+	524 -> 439
+	525 -> 439
+	515 -> 440
+	526 -> 440
+	527 -> 440
+	515 -> 441
+	528 -> 441
+	529 -> 441
+	515 -> 442
+	530 -> 442
+	531 -> 442
+	515 -> 443
+	532 -> 443
+	533 -> 443
+	515 -> 444
+	534 -> 444
+	535 -> 444
+	536 -> 445
+	537 -> 445
+	538 -> 445
+	536 -> 446
+	539 -> 446
+	540 -> 446
+	536 -> 447
+	541 -> 447
+	542 -> 447
+	536 -> 448
+	543 -> 448
+	544 -> 448
+	536 -> 449
+	545 -> 449
+	546 -> 449
+	536 -> 450
+	547 -> 450
+	548 -> 450
+	536 -> 451
+	549 -> 451
+	550 -> 451
+	536 -> 452
+	551 -> 452
+	552 -> 452
+	536 -> 453
+	553 -> 453
+	554 -> 453
+	536 -> 454
+	555 -> 454
+	556 -> 454
+	557 -> 455
+	558 -> 455
+	559 -> 455
+	557 -> 456
+	560 -> 456
+	561 -> 456
+	557 -> 457
+	562 -> 457
+	563 -> 457
+	557 -> 458
+	564 -> 458
+	565 -> 458
+	557 -> 459
+	566 -> 459
+	567 -> 459
+	557 -> 460
+	568 -> 460
+	569 -> 460
+	557 -> 461
+	570 -> 461
+	571 -> 461
+	557 -> 462
+	572 -> 462
+	573 -> 462
+	557 -> 463
+	574 -> 463
+	575 -> 463
+	557 -> 464
+	576 -> 464
+	577 -> 464
+	578 -> 465
+	579 -> 465
+	580 -> 465
+	578 -> 466
+	581 -> 466
+	582 -> 466
+	578 -> 467
+	583 -> 467
+	584 -> 467
+	578 -> 468
+	585 -> 468
+	586 -> 468
+	578 -> 469
+	587 -> 469
+	588 -> 469
+	578 -> 470
+	589 -> 470
+	590 -> 470
+	578 -> 471
+	591 -> 471
+	592 -> 471
+	578 -> 472
+	593 -> 472
+	594 -> 472
+	578 -> 473
+	595 -> 473
+	596 -> 473
+	578 -> 474
+	597 -> 474
+	598 -> 474
+	599 -> 475
+	600 -> 475
+	601 -> 475
+	599 -> 476
+	602 -> 476
+	603 -> 476
+	599 -> 477
+	604 -> 477
+	605 -> 477
+	599 -> 478
+	606 -> 478
+	607 -> 478
+	599 -> 479
+	608 -> 479
+	609 -> 479
+	599 -> 480
+	610 -> 480
+	611 -> 480
+	599 -> 481
+	612 -> 481
+	613 -> 481
+	599 -> 482
+	614 -> 482
+	615 -> 482
+	599 -> 483
+	616 -> 483
+	617 -> 483
+	599 -> 484
+	618 -> 484
+	619 -> 484
+	620 -> 485
+	621 -> 485
+	622 -> 485
+	620 -> 486
+	623 -> 486
+	624 -> 486
+	620 -> 487
+	625 -> 487
+	626 -> 487
+	620 -> 488
+	627 -> 488
+	628 -> 488
+	620 -> 489
+	629 -> 489
+	630 -> 489
+	620 -> 490
+	631 -> 490
+	632 -> 490
+	620 -> 491
+	633 -> 491
+	634 -> 491
+	620 -> 492
+	635 -> 492
+	636 -> 492
+	620 -> 493
+	637 -> 493
+	638 -> 493
+	272 -> 494
+	203 -> 495
+	203 -> 496
+	204 -> 497
+	204 -> 498
+	205 -> 499
+	205 -> 500
+	206 -> 501
+	206 -> 502
+	207 -> 503
+	207 -> 504
+	208 -> 505
+	208 -> 506
+	209 -> 507
+	209 -> 508
+	210 -> 509
+	210 -> 510
+	211 -> 511
+	211 -> 512
+	212 -> 513
+	212 -> 514
+	283 -> 515
+	213 -> 516
+	213 -> 517
+	214 -> 518
+	214 -> 519
+	215 -> 520
+	215 -> 521
+	216 -> 522
+	216 -> 523
+	217 -> 524
+	217 -> 525
+	218 -> 526
+	218 -> 527
+	219 -> 528
+	219 -> 529
+	220 -> 530
+	220 -> 531
+	221 -> 532
+	221 -> 533
+	222 -> 534
+	222 -> 535
+	294 -> 536
+	223 -> 537
+	223 -> 538
+	224 -> 539
+	224 -> 540
+	225 -> 541
+	225 -> 542
+	226 -> 543
+	226 -> 544
+	227 -> 545
+	227 -> 546
+	228 -> 547
+	228 -> 548
+	229 -> 549
+	229 -> 550
+	230 -> 551
+	230 -> 552
+	231 -> 553
+	231 -> 554
+	232 -> 555
+	232 -> 556
+	305 -> 557
+	233 -> 558
+	233 -> 559
+	234 -> 560
+	234 -> 561
+	235 -> 562
+	235 -> 563
+	236 -> 564
+	236 -> 565
+	237 -> 566
+	237 -> 567
+	238 -> 568
+	238 -> 569
+	239 -> 570
+	239 -> 571
+	240 -> 572
+	240 -> 573
+	241 -> 574
+	241 -> 575
+	242 -> 576
+	242 -> 577
+	316 -> 578
+	243 -> 579
+	243 -> 580
+	245 -> 581
+	245 -> 582
+	247 -> 583
+	247 -> 584
+	249 -> 585
+	249 -> 586
+	251 -> 587
+	251 -> 588
+	253 -> 589
+	253 -> 590
+	255 -> 591
+	255 -> 592
+	257 -> 593
+	257 -> 594
+	259 -> 595
+	259 -> 596
+	261 -> 597
+	261 -> 598
+	327 -> 599
+	244 -> 600
+	244 -> 601
+	246 -> 602
+	246 -> 603
+	248 -> 604
+	248 -> 605
+	250 -> 606
+	250 -> 607
+	252 -> 608
+	252 -> 609
+	254 -> 610
+	254 -> 611
+	256 -> 612
+	256 -> 613
+	258 -> 614
+	258 -> 615
+	260 -> 616
+	260 -> 617
+	262 -> 618
+	262 -> 619
+	338 -> 620
+	263 -> 621
+	263 -> 622
+	264 -> 623
+	264 -> 624
+	265 -> 625
+	265 -> 626
+	266 -> 627
+	266 -> 628
+	267 -> 629
+	267 -> 630
+	268 -> 631
+	268 -> 632
+	269 -> 633
+	269 -> 634
+	270 -> 635
+	270 -> 636
+	271 -> 637
+	271 -> 638
+}            
