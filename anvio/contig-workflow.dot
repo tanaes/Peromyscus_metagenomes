@@ -1,0 +1,174 @@
+digraph snakemake_dag {
+    graph[bgcolor=white, margin=0];
+    node[shape=box, style=rounded, fontname=sans,                 fontsize=10, penwidth=2];
+    edge[penwidth=2, color=grey];
+	0[label = "contigs_target_rule", color = "0.16 0.6 0.85", style="rounded"];
+	1[label = "annotate_contigs_database", color = "0.57 0.6 0.85", style="rounded"];
+	2[label = "annotate_contigs_database", color = "0.57 0.6 0.85", style="rounded"];
+	3[label = "annotate_contigs_database", color = "0.57 0.6 0.85", style="rounded"];
+	4[label = "annotate_contigs_database", color = "0.57 0.6 0.85", style="rounded"];
+	5[label = "annotate_contigs_database", color = "0.57 0.6 0.85", style="rounded"];
+	6[label = "annotate_contigs_database", color = "0.57 0.6 0.85", style="rounded"];
+	7[label = "annotate_contigs_database", color = "0.57 0.6 0.85", style="rounded"];
+	8[label = "anvi_gen_contigs_database", color = "0.48 0.6 0.85", style="rounded"];
+	9[label = "anvi_run_hmms", color = "0.35 0.6 0.85", style="rounded"];
+	10[label = "anvi_run_ncbi_cogs", color = "0.25 0.6 0.85", style="rounded"];
+	11[label = "anvi_run_scg_taxonomy", color = "0.19 0.6 0.85", style="rounded"];
+	12[label = "anvi_run_trna_scan", color = "0.13 0.6 0.85", style="rounded"];
+	13[label = "anvi_run_pfams", color = "0.54 0.6 0.85", style="rounded"];
+	14[label = "anvi_gen_contigs_database", color = "0.48 0.6 0.85", style="rounded"];
+	15[label = "anvi_run_hmms", color = "0.35 0.6 0.85", style="rounded"];
+	16[label = "anvi_run_ncbi_cogs", color = "0.25 0.6 0.85", style="rounded"];
+	17[label = "anvi_run_scg_taxonomy", color = "0.19 0.6 0.85", style="rounded"];
+	18[label = "anvi_run_trna_scan", color = "0.13 0.6 0.85", style="rounded"];
+	19[label = "anvi_run_pfams", color = "0.54 0.6 0.85", style="rounded"];
+	20[label = "anvi_gen_contigs_database", color = "0.48 0.6 0.85", style="rounded"];
+	21[label = "anvi_run_hmms", color = "0.35 0.6 0.85", style="rounded"];
+	22[label = "anvi_run_ncbi_cogs", color = "0.25 0.6 0.85", style="rounded"];
+	23[label = "anvi_run_scg_taxonomy", color = "0.19 0.6 0.85", style="rounded"];
+	24[label = "anvi_run_trna_scan", color = "0.13 0.6 0.85", style="rounded"];
+	25[label = "anvi_run_pfams", color = "0.54 0.6 0.85", style="rounded"];
+	26[label = "anvi_gen_contigs_database", color = "0.48 0.6 0.85", style="rounded"];
+	27[label = "anvi_run_hmms", color = "0.35 0.6 0.85", style="rounded"];
+	28[label = "anvi_run_ncbi_cogs", color = "0.25 0.6 0.85", style="rounded"];
+	29[label = "anvi_run_scg_taxonomy", color = "0.19 0.6 0.85", style="rounded"];
+	30[label = "anvi_run_trna_scan", color = "0.13 0.6 0.85", style="rounded"];
+	31[label = "anvi_run_pfams", color = "0.54 0.6 0.85", style="rounded"];
+	32[label = "anvi_gen_contigs_database", color = "0.48 0.6 0.85", style="rounded"];
+	33[label = "anvi_run_hmms", color = "0.35 0.6 0.85", style="rounded"];
+	34[label = "anvi_run_ncbi_cogs", color = "0.25 0.6 0.85", style="rounded"];
+	35[label = "anvi_run_scg_taxonomy", color = "0.19 0.6 0.85", style="rounded"];
+	36[label = "anvi_run_trna_scan", color = "0.13 0.6 0.85", style="rounded"];
+	37[label = "anvi_run_pfams", color = "0.54 0.6 0.85", style="rounded"];
+	38[label = "anvi_gen_contigs_database", color = "0.48 0.6 0.85", style="rounded"];
+	39[label = "anvi_run_hmms", color = "0.35 0.6 0.85", style="rounded"];
+	40[label = "anvi_run_ncbi_cogs", color = "0.25 0.6 0.85", style="rounded"];
+	41[label = "anvi_run_scg_taxonomy", color = "0.19 0.6 0.85", style="rounded"];
+	42[label = "anvi_run_trna_scan", color = "0.13 0.6 0.85", style="rounded"];
+	43[label = "anvi_run_pfams", color = "0.54 0.6 0.85", style="rounded"];
+	44[label = "anvi_gen_contigs_database", color = "0.48 0.6 0.85", style="rounded"];
+	45[label = "anvi_run_hmms", color = "0.35 0.6 0.85", style="rounded"];
+	46[label = "anvi_run_ncbi_cogs", color = "0.25 0.6 0.85", style="rounded"];
+	47[label = "anvi_run_scg_taxonomy", color = "0.19 0.6 0.85", style="rounded"];
+	48[label = "anvi_run_trna_scan", color = "0.13 0.6 0.85", style="rounded"];
+	49[label = "anvi_run_pfams", color = "0.54 0.6 0.85", style="rounded"];
+	50[label = "anvi_script_reformat_fasta", color = "0.06 0.6 0.85", style="rounded"];
+	51[label = "anvi_script_reformat_fasta", color = "0.06 0.6 0.85", style="rounded"];
+	52[label = "anvi_script_reformat_fasta", color = "0.06 0.6 0.85", style="rounded"];
+	53[label = "anvi_script_reformat_fasta", color = "0.06 0.6 0.85", style="rounded"];
+	54[label = "anvi_script_reformat_fasta", color = "0.06 0.6 0.85", style="rounded"];
+	55[label = "anvi_script_reformat_fasta", color = "0.06 0.6 0.85", style="rounded"];
+	56[label = "anvi_script_reformat_fasta", color = "0.06 0.6 0.85", style="rounded"];
+	57[label = "anvi_script_reformat_fasta_prefix_only\ngroup: Pcalifornicus_1F", color = "0.38 0.6 0.85", style="rounded"];
+	58[label = "anvi_script_reformat_fasta_prefix_only\ngroup: Peremicus_3F", color = "0.38 0.6 0.85", style="rounded"];
+	59[label = "anvi_script_reformat_fasta_prefix_only\ngroup: Pleucopus_3F", color = "0.38 0.6 0.85", style="rounded"];
+	60[label = "anvi_script_reformat_fasta_prefix_only\ngroup: Pmaniculatus_1F", color = "0.38 0.6 0.85", style="rounded"];
+	61[label = "anvi_script_reformat_fasta_prefix_only\ngroup: Ppolionotus_3F", color = "0.38 0.6 0.85", style="rounded"];
+	62[label = "anvi_script_reformat_fasta_prefix_only\ngroup: Ppolionotus_5F", color = "0.38 0.6 0.85", style="rounded"];
+	63[label = "anvi_script_reformat_fasta_prefix_only\ngroup: Psonoriensis_1F", color = "0.38 0.6 0.85", style="rounded"];
+	1 -> 0
+	2 -> 0
+	3 -> 0
+	4 -> 0
+	5 -> 0
+	6 -> 0
+	7 -> 0
+	8 -> 1
+	9 -> 1
+	10 -> 1
+	11 -> 1
+	12 -> 1
+	13 -> 1
+	14 -> 2
+	15 -> 2
+	16 -> 2
+	17 -> 2
+	18 -> 2
+	19 -> 2
+	20 -> 3
+	21 -> 3
+	22 -> 3
+	23 -> 3
+	24 -> 3
+	25 -> 3
+	26 -> 4
+	27 -> 4
+	28 -> 4
+	29 -> 4
+	30 -> 4
+	31 -> 4
+	32 -> 5
+	33 -> 5
+	34 -> 5
+	35 -> 5
+	36 -> 5
+	37 -> 5
+	38 -> 6
+	39 -> 6
+	40 -> 6
+	41 -> 6
+	42 -> 6
+	43 -> 6
+	44 -> 7
+	45 -> 7
+	46 -> 7
+	47 -> 7
+	48 -> 7
+	49 -> 7
+	50 -> 8
+	8 -> 9
+	8 -> 10
+	9 -> 11
+	8 -> 11
+	8 -> 12
+	8 -> 13
+	51 -> 14
+	14 -> 15
+	14 -> 16
+	15 -> 17
+	14 -> 17
+	14 -> 18
+	14 -> 19
+	52 -> 20
+	20 -> 21
+	20 -> 22
+	21 -> 23
+	20 -> 23
+	20 -> 24
+	20 -> 25
+	53 -> 26
+	26 -> 27
+	26 -> 28
+	27 -> 29
+	26 -> 29
+	26 -> 30
+	26 -> 31
+	54 -> 32
+	32 -> 33
+	32 -> 34
+	33 -> 35
+	32 -> 35
+	32 -> 36
+	32 -> 37
+	55 -> 38
+	38 -> 39
+	38 -> 40
+	39 -> 41
+	38 -> 41
+	38 -> 42
+	38 -> 43
+	56 -> 44
+	44 -> 45
+	44 -> 46
+	45 -> 47
+	44 -> 47
+	44 -> 48
+	44 -> 49
+	57 -> 50
+	58 -> 51
+	59 -> 52
+	60 -> 53
+	61 -> 54
+	62 -> 55
+	63 -> 56
+}            
