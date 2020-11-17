@@ -1,18 +1,18 @@
 {
     "fasta_txt": "nanopore-contigs-fastas.txt",
-    // "anvi_gen_contigs_database": {
-    //     "--project-name": "{group}",
-    //     "--description": "",
-    //     "--skip-gene-calling": "",
-    //     "--external-gene-calls": "",
-    //     "--ignore-internal-stop-codons": "",
-    //     "--skip-mindful-splitting": "",
-    //     "--contigs-fasta": "",
-    //     "--split-length": "",
-    //     "--kmer-size": "",
-    //     "--prodigal-translation-table": "",
-    //     "threads": ""
-    // },
+    "anvi_gen_contigs_database": {
+        "--project-name": "{group}",
+        "--description": "",
+        "--skip-gene-calling": "",
+        "--external-gene-calls": "",
+        "--ignore-internal-stop-codons": "",
+        "--skip-mindful-splitting": "",
+        "--contigs-fasta": "",
+        "--split-length": "",
+        "--kmer-size": "",
+        "--prodigal-translation-table": "",
+        "threads": ""
+    },
     "centrifuge": {
         "threads": 2,
         "run": "",
