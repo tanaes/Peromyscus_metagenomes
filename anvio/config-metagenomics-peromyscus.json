@@ -280,8 +280,8 @@
     "kraken_txt": "",
     "collections_txt": "",
     "output_dirs": {
-        "FASTA_DIR": "02_FASTA",
-        "CONTIGS_DIR": "03_CONTIGS",
+        "FASTA_DIR": "01_FASTA",
+        "CONTIGS_DIR": "02_CONTIGS",
         "QC_DIR": "01_QC",
         "MAPPING_DIR": "04_MAPPING",
         "PROFILE_DIR": "05_ANVIO_PROFILE",
