@@ -275,7 +275,7 @@
         "run": "",
         "threads": ""
     },
-    "references_mode": "",
+    "references_mode": true,
     "all_against_all": "",
     "kraken_txt": "",
     "collections_txt": "",
