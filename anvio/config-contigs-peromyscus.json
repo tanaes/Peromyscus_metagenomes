@@ -94,7 +94,7 @@
         "threads": ""
     },
     "anvi_run_pfams": {
-        "run": true,
+        "run": "",
         "--pfam-data-dir": "",
         "threads": "4"
     },
