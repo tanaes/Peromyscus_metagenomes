@@ -267,7 +267,7 @@
     },
     "anvi_summarize": {
         "additional_params": "",
-        "run": true,
+        "run": "",
         "threads": 2
     },
     "anvi_split": {
