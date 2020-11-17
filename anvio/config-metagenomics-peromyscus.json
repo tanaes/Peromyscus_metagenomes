@@ -1,5 +1,5 @@
 {
-    "fasta_txt": "fasta.txt",
+    "fasta_txt": "nanopore-contigs-fastas.txt",
     "anvi_gen_contigs_database": {
         "--project-name": "{group}",
         "--description": "",
@@ -66,7 +66,7 @@
         "--drop-previous-annotations": "",
         "threads": ""
     },
-    "samples_txt": "samples.txt",
+    "samples_txt": "illumina-samples.txt",
     "metaspades": {
         "additional_params": "--only-assembler",
         "threads": 7,
