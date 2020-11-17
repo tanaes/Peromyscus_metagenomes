@@ -131,11 +131,11 @@
         "--limit-num-pairs": "",
         "--print-qual-scores": "",
         "--store-read-fate": "",
-        "threads": ""
+        "threads": 4
     },
     "gzip_fastqs": {
         "run": true,
-        "threads": ""
+        "threads": 1
     },
     "bowtie": {
         "additional_params": "--no-unal",
@@ -174,7 +174,7 @@
         "--enforce-hierarchical-clustering": "",
         "--distance": "",
         "--linkage": "",
-        "threads": ""
+        "threads": 4
     },
     "import_percent_of_reads_mapped": {
         "run": true,
@@ -291,7 +291,7 @@
         "SPLIT_PROFILES_DIR": "09_SPLIT_PROFILES",
         "LOGS_DIR": "00_LOGS"
     },
-    "max_threads": 32,
+    "max_threads": 48,
     "config_version": "1",
     "workflow_name": "metagenomics"
 }
