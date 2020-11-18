@@ -196,7 +196,7 @@
     "anvi_cluster_contigs": {
         "--collection-name": "{driver}",
         "run": true,
-        "--driver": [ "concoct", "maxbin2" ],
+        "--driver": [ "maxbin2" ],
         "--just-do-it": "",
         "--additional-params-concoct": "",
         "--additional-params-metabat2": "",
@@ -267,7 +267,7 @@
     },
     "anvi_summarize": {
         "additional_params": "",
-        "run": "",
+        "run": true,
         "threads": 2
     },
     "anvi_split": {
