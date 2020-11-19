@@ -19,4 +19,4 @@ rule anvi_summarize:
         join(outdir, '{group}', '{collection}', 'index.html')
     run:
         out_dir = dirname(output[0])
-        shell("anvi-summarize --just-do-it -c {input.contigs} -p {input.profile} -C {wildcards.collection} -o {out_dir}")
+        shell("anvi-summarize --just-do-it --fix-sad-tables -c {input.contigs} -p {input.profile} -C {wildcards.collection} -o {out_dir}")
