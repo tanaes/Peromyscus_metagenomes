@@ -1,0 +1,14 @@
+outdir: 07_SUMMARY
+contigs_dir: 02_CONTIGS
+profile_dir: 06_MERGED
+groups:
+    - Pcalifornicus_1F
+    - Peremicus_3F
+    - Pleucopus_3F
+    - Pmaniculatus_1F
+    - Ppolionotus_3F
+    - Ppolionotus_5F
+    - Psonoriensis_1F
+collections:
+    - maxbin2
+    - concoct
