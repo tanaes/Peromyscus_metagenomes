@@ -3,6 +3,13 @@
 .AppleDouble
 .LSOverride
 
+# Anvi'o files
+
+# don't accidentally add heavy summary directories
+bin_by_bin/
+bins_across_samples/
+misc_data_layers/
+
 # Icon must end with two \r
 Icon
 
