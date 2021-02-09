@@ -65,7 +65,7 @@
         "--drop-previous-annotations": "",
         "threads": ""
     },
-    "samples_txt": "illumina-samples.txt",
+    "samples_txt": "illumina-samples-single.txt",
     "metaspades": {
         "additional_params": "--only-assembler",
         "threads": 7,
