@@ -3,7 +3,6 @@
         "--project-name": "{group}",
         "--description": "",
         "--skip-gene-calling": "",
-        "--external-gene-calls": "",
         "--ignore-internal-stop-codons": "",
         "--skip-mindful-splitting": "",
         "--contigs-fasta": "",
@@ -195,7 +194,11 @@
     "anvi_cluster_contigs": {
         "--collection-name": "{driver}",
         "run": true,
-        "--driver": [ "concoct", "maxbin2", "dastool" ],
+        "--driver": [
+            "concoct",
+            "maxbin2",
+            "dastool"
+        ],
         "--just-do-it": true,
         "--additional-params-concoct": "",
         "--additional-params-metabat2": "",
@@ -291,6 +294,6 @@
         "LOGS_DIR": "00_LOGS"
     },
     "max_threads": 48,
-    "config_version": "1",
+    "config_version": "2",
     "workflow_name": "metagenomics"
 }
