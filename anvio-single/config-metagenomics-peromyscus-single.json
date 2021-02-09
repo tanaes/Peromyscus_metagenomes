@@ -146,23 +146,7 @@
     "anvi_profile": {
         "threads": 3,
         "--sample-name": "{sample}",
-        "--overwrite-output-destinations": true,
-        "--report-variability-full": "",
-        "--skip-SNV-profiling": "",
-        "--profile-SCVs": "",
-        "--description": "",
-        "--skip-hierarchical-clustering": "",
-        "--distance": "",
-        "--linkage": "",
-        "--min-contig-length": "",
-        "--min-mean-coverage": "",
-        "--min-coverage-for-variability": "",
-        "--cluster-contigs": "",
-        "--contigs-of-interest": "",
-        "--queue-size": "",
-        "--write-buffer-size-per-thread": "",
-        "--max-contig-length": "",
-        "--max-coverage-depth": ""
+        "--overwrite-output-destinations": true
     },
     "anvi_merge": {
         "--sample-name": "{group}",
